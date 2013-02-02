@@ -1,0 +1,2662 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="364">
+      <Unit0>
+        <Filename Value="sxmlpad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sxmlpad"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="1" Y="18"/>
+        <UsageCount Value="200"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ufrmmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmmain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmmain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2437"/>
+        <CursorPos X="18" Y="2452"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="udmmainshared.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmMainShared"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="udmMainShared"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="12" Y="1"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uktansisxmldocs"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="714"/>
+        <CursorPos X="12" Y="729"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="sxmlpad_language.inc"/>
+        <IsPartOfProject Value="True"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="5"/>
+        <CursorPos X="37" Y="17"/>
+        <UsageCount Value="200"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uresmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uresmain"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="172"/>
+        <CursorPos X="38" Y="159"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uktsxmlpaneltreeviews"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="185"/>
+        <CursorPos X="21" Y="200"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uktansisxmldocres.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uktansisxmldocres"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="38" Y="53"/>
+        <UsageCount Value="80"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="units\sxmltreecntrs.pas"/>
+        <UnitName Value="sxmltreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="51" Y="104"/>
+        <UsageCount Value="176"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\tcustomsdvtreeview.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvcombos.pas"/>
+        <UnitName Value="vclsdvcombos"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="244"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvctrls.pas"/>
+        <UnitName Value="vclsdvctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="7" Y="16"/>
+        <UsageCount Value="175"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvedits.pas"/>
+        <UnitName Value="vclsdvedits"/>
+        <UsageCount Value="175"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvgradpanels.pas"/>
+        <UnitName Value="vclsdvgradpanels"/>
+        <UsageCount Value="175"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvmaskeds.pas"/>
+        <UnitName Value="vclsdvmaskeds"/>
+        <UsageCount Value="175"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvmemos.pas"/>
+        <UnitName Value="vclsdvmemos"/>
+        <UsageCount Value="175"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvpanels.pas"/>
+        <UnitName Value="vclsdvpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="226"/>
+        <CursorPos X="1" Y="236"/>
+        <UsageCount Value="175"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvcontroltreenodes.pas"/>
+        <UnitName Value="vclsdvcontroltreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="508"/>
+        <CursorPos X="1" Y="517"/>
+        <UsageCount Value="175"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvpgctrls.pas"/>
+        <UnitName Value="vclsdvpgctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvpublictreeviews.pas"/>
+        <UnitName Value="vclsdvpublictreeviews"/>
+        <UsageCount Value="175"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvstatetreeviews.pas"/>
+        <UnitName Value="vclsdvstatetreeviews"/>
+        <UsageCount Value="175"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvstmemos.pas"/>
+        <UnitName Value="vclsdvstmemos"/>
+        <UsageCount Value="175"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvtogglebitbtns.pas"/>
+        <UnitName Value="vclsdvtogglebitbtns"/>
+        <UsageCount Value="175"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvtogglebuttons.pas"/>
+        <UnitName Value="vclsdvtogglebuttons"/>
+        <UsageCount Value="175"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvtogglespeedbtns.pas"/>
+        <UnitName Value="vclsdvtogglespeedbtns"/>
+        <UsageCount Value="175"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvtreeviews.pas"/>
+        <UnitName Value="vclsdvtreeviews"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="288"/>
+        <CursorPos X="1" Y="301"/>
+        <UsageCount Value="175"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvpaneltreeviews.pas"/>
+        <UnitName Value="vclsdvpaneltreeviews"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="660"/>
+        <CursorPos X="1" Y="673"/>
+        <UsageCount Value="175"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvmsgpaneltreeviews.pas"/>
+        <UnitName Value="vclsdvmsgpaneltreeviews"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="290"/>
+        <CursorPos X="6" Y="308"/>
+        <UsageCount Value="178"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\guidllwizard1\units\sdvxml\sdvxmlfiletokens.pas"/>
+        <UnitName Value="sdvxmlfiletokens"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="37"/>
+        <CursorPos X="44" Y="43"/>
+        <UsageCount Value="76"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\guidllwizard1\units\sdvxml\sdvxmlfiletreenodetokens.pas"/>
+        <UnitName Value="sdvxmlfiletreenodetokens"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="36" Y="21"/>
+        <UsageCount Value="76"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\guidllwizard1\units\sdvobjtypes\sdvobjtypes_language.incpas"/>
+        <UsageCount Value="71"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\guidllwizard1\units\sdvxml\sdvsxmltreenodes.pas"/>
+        <UnitName Value="sdvsxmltreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="13" Y="53"/>
+        <UsageCount Value="9"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="..\guidllwizard1\units\sdvxml\sdvtagattrdocs.pas"/>
+        <UnitName Value="sdvtagattrdocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="106"/>
+        <CursorPos X="7" Y="115"/>
+        <UsageCount Value="9"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="..\guidllwizard1\units\sdvxml\sdvxmldocs.pas"/>
+        <UnitName Value="sdvxmldocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="27" Y="70"/>
+        <UsageCount Value="9"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmlfileansiscanners.pas"/>
+        <UnitName Value="xmlfileansiscanners"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="29" Y="19"/>
+        <UsageCount Value="9"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmlfileansisymbols.pas"/>
+        <UnitName Value="xmlfileansisymbols"/>
+        <UsageCount Value="9"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmlfilegroups.pas"/>
+        <UnitName Value="xmlfilegroups"/>
+        <UsageCount Value="9"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmltagansiparsers.pas"/>
+        <UnitName Value="xmltagansiparsers"/>
+        <UsageCount Value="9"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmltagansiscanners.pas"/>
+        <UnitName Value="xmltagansiscanners"/>
+        <UsageCount Value="9"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmltagansisymbols.pas"/>
+        <UnitName Value="xmltagansisymbols"/>
+        <UsageCount Value="9"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmltaggroups.pas"/>
+        <UnitName Value="xmltaggroups"/>
+        <UsageCount Value="9"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="..\guidllwizard1\units\sdvxml\xmltagtokens.pas"/>
+        <UnitName Value="xmltagtokens"/>
+        <UsageCount Value="9"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvtransdlgs.pas"/>
+        <UnitName Value="sdvtransdlgs"/>
+        <UsageCount Value="175"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputdate.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputdate.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputdate.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputdate"/>
+        <UsageCount Value="175"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputint.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputint.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputint.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputint"/>
+        <UsageCount Value="175"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputmemo.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputmemo.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputmemo.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputmemo"/>
+        <UsageCount Value="175"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputoptions.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit52>
+      <Unit53>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputoptions.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit53>
+      <Unit54>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputoptions.pas"/>
+        <ComponentName Value="sdvfrmInputOptions"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lazsdvfrminputoptions"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="15"/>
+        <CursorPos X="1" Y="52"/>
+        <UsageCount Value="175"/>
+      </Unit54>
+      <Unit55>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstr.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit55>
+      <Unit56>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstr.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit56>
+      <Unit57>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstr.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputstr"/>
+        <UsageCount Value="175"/>
+      </Unit57>
+      <Unit58>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstrings.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit58>
+      <Unit59>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstrings.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit59>
+      <Unit60>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstringsplus.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit60>
+      <Unit61>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstringsplus.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit61>
+      <Unit62>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstringsplus.pas"/>
+        <ComponentName Value="sdvfrmInputStringsPlus"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lazsdvfrminputstringsplus"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="12"/>
+        <CursorPos X="3" Y="21"/>
+        <UsageCount Value="175"/>
+      </Unit62>
+      <Unit63>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputtime.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit63>
+      <Unit64>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputtime.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit64>
+      <Unit65>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputtime.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputtime"/>
+        <UsageCount Value="175"/>
+      </Unit65>
+      <Unit66>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmmsgdlg.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit66>
+      <Unit67>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmmsgdlg.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit67>
+      <Unit68>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmmsgdlg.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmmsgdlg"/>
+        <UsageCount Value="175"/>
+      </Unit68>
+      <Unit69>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmmsgmemo.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit69>
+      <Unit70>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmmsgmemo.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit70>
+      <Unit71>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmmsgmemo.pas"/>
+        <ComponentName Value="sdvfrmMsgMemo"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lazsdvfrmmsgmemo"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit71>
+      <Unit72>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmoptiondlg.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit72>
+      <Unit73>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmoptiondlg.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit73>
+      <Unit74>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmoptiondlg.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmoptiondlg"/>
+        <UsageCount Value="175"/>
+      </Unit74>
+      <Unit75>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmreplacefielddialog.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit75>
+      <Unit76>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmreplacefielddialog.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit76>
+      <Unit77>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmreplacefielddialog.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmreplacefielddialog"/>
+        <UsageCount Value="175"/>
+      </Unit77>
+      <Unit78>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmreplacetextdialog.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit78>
+      <Unit79>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmreplacetextdialog.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit79>
+      <Unit80>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmreplacetextdialog.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmreplacetextdialog"/>
+        <UsageCount Value="175"/>
+      </Unit80>
+      <Unit81>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmsearchfielddialog.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit81>
+      <Unit82>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmsearchfielddialog.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit82>
+      <Unit83>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmsearchfielddialog.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmsearchfielddialog"/>
+        <UsageCount Value="175"/>
+      </Unit83>
+      <Unit84>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmsearchtextdialog.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit84>
+      <Unit85>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmsearchtextdialog.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit85>
+      <Unit86>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmsearchtextdialog.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmsearchtextdialog"/>
+        <UsageCount Value="175"/>
+      </Unit86>
+      <Unit87>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmtransstr.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit87>
+      <Unit88>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmtransstr.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit88>
+      <Unit89>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmtransstr.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmtransstr"/>
+        <UsageCount Value="175"/>
+      </Unit89>
+      <Unit90>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmtransstrings.lfm"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit90>
+      <Unit91>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmtransstrings.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit91>
+      <Unit92>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrmtransstrings.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrmtransstrings"/>
+        <UsageCount Value="175"/>
+      </Unit92>
+      <Unit93>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvsrchflddlgs.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit93>
+      <Unit94>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvsrchtxtdlgs.lrs"/>
+        <UsageCount Value="175"/>
+      </Unit94>
+      <Unit95>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvdlgctrls.pas"/>
+        <UnitName Value="sdvdlgctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="43"/>
+        <CursorPos X="14" Y="63"/>
+        <UsageCount Value="175"/>
+      </Unit95>
+      <Unit96>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvdlgs_language.incpas"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit96>
+      <Unit97>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvinputdlgs.pas"/>
+        <UnitName Value="sdvinputdlgs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit97>
+      <Unit98>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvmsgdlgs.pas"/>
+        <UnitName Value="sdvmsgdlgs"/>
+        <UsageCount Value="175"/>
+      </Unit98>
+      <Unit99>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvmsgdlgsmemos.pas"/>
+        <UnitName Value="sdvmsgdlgsmemos"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="43"/>
+        <CursorPos X="10" Y="48"/>
+        <UsageCount Value="175"/>
+      </Unit99>
+      <Unit100>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvoptiondlgs.pas"/>
+        <UnitName Value="sdvoptiondlgs"/>
+        <UsageCount Value="175"/>
+      </Unit100>
+      <Unit101>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvsrchdlgs.pas"/>
+        <UnitName Value="sdvsrchdlgs"/>
+        <UsageCount Value="175"/>
+      </Unit101>
+      <Unit102>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvsrchflddlgs.pas"/>
+        <UnitName Value="sdvsrchflddlgs"/>
+        <UsageCount Value="175"/>
+      </Unit102>
+      <Unit103>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvsrchtxtdlgs.pas"/>
+        <UnitName Value="sdvsrchtxtdlgs"/>
+        <UsageCount Value="175"/>
+      </Unit103>
+      <Unit104>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvcheckboxes.pas"/>
+        <UnitName Value="vclsdvcheckboxes"/>
+        <UsageCount Value="175"/>
+      </Unit104>
+      <Unit105>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvcomboctrls.pas"/>
+        <UnitName Value="vclsdvcomboctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit105>
+      <Unit106>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvmsgdlgarrays.pas"/>
+        <UnitName Value="sdvmsgdlgarrays"/>
+        <UsageCount Value="87"/>
+      </Unit106>
+      <Unit107>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeyvaluelist.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputkeyvaluelist"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="79"/>
+      </Unit107>
+      <Unit108>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeytypevalue.lfm"/>
+        <UsageCount Value="79"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit108>
+      <Unit109>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeytypevalue.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputkeytypevalue"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="28" Y="10"/>
+        <UsageCount Value="79"/>
+      </Unit109>
+      <Unit110>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeytypevaluelist.lfm"/>
+        <UsageCount Value="79"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit110>
+      <Unit111>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeytypevaluelist.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputkeytypevaluelist"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="40"/>
+        <CursorPos X="33" Y="42"/>
+        <UsageCount Value="79"/>
+      </Unit111>
+      <Unit112>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeytypevaluelistmany.lfm"/>
+        <UsageCount Value="79"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit112>
+      <Unit113>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeytypevaluelistmany.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputkeytypevaluelistmany"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="16" Y="15"/>
+        <UsageCount Value="79"/>
+      </Unit113>
+      <Unit114>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeyvalue.lfm"/>
+        <UsageCount Value="79"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit114>
+      <Unit115>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeyvalue.pas"/>
+        <HasResources Value="True"/>
+        <UnitName Value="lazsdvfrminputkeyvalue"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="20" Y="14"/>
+        <UsageCount Value="79"/>
+      </Unit115>
+      <Unit116>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeyvaluelist.lfm"/>
+        <UsageCount Value="79"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit116>
+      <Unit117>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvonlystringkeyvalueinputdlgs.pas"/>
+        <UnitName Value="sdvonlystringkeyvalueinputdlgs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="214"/>
+        <CursorPos X="1" Y="209"/>
+        <UsageCount Value="79"/>
+      </Unit117>
+      <Unit118>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputstrings.pas"/>
+        <ComponentName Value="sdvfrmInputStrings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lazsdvfrminputstrings"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="12"/>
+        <CursorPos X="3" Y="21"/>
+        <UsageCount Value="76"/>
+      </Unit118>
+      <Unit119>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\lazsdvfrminputkeyvalueoptions.pas"/>
+        <ComponentName Value="frminputkeyvalueoptions"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="lazsdvfrminputkeyvalueoptions"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="15"/>
+        <CursorPos X="35" Y="4"/>
+        <UsageCount Value="72"/>
+      </Unit119>
+      <Unit120>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvkeytypevalueinputdlgs.pas"/>
+        <UnitName Value="sdvkeytypevalueinputdlgs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="179"/>
+        <CursorPos X="5" Y="191"/>
+        <UsageCount Value="71"/>
+      </Unit120>
+      <Unit121>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvkeytypevaluedocs.pas"/>
+        <UnitName Value="sdvkeytypevaluedocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit121>
+      <Unit122>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvkeytypevaluelisttreecntrs.pas"/>
+        <UnitName Value="sdvkeytypevaluelisttreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="36" Y="5"/>
+        <UsageCount Value="175"/>
+      </Unit122>
+      <Unit123>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvkeyvaluelisttreenodes.pas"/>
+        <UnitName Value="sdvkeyvaluelisttreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="77" Y="82"/>
+        <UsageCount Value="175"/>
+      </Unit123>
+      <Unit124>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvtreecntrs.pas"/>
+        <UnitName Value="sdvtreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="3"/>
+        <UsageCount Value="96"/>
+      </Unit124>
+      <Unit125>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvtreeiterators.pas"/>
+        <UnitName Value="sdvtreeiterators"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="159"/>
+        <CursorPos X="3" Y="171"/>
+        <UsageCount Value="175"/>
+      </Unit125>
+      <Unit126>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvtreenodes.pas"/>
+        <UnitName Value="sdvtreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="552"/>
+        <CursorPos X="1" Y="556"/>
+        <UsageCount Value="175"/>
+      </Unit126>
+      <Unit127>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvtextreenodes.pas"/>
+        <UnitName Value="sdvtextreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="154"/>
+        <CursorPos X="8" Y="165"/>
+        <UsageCount Value="154"/>
+      </Unit127>
+      <Unit128>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvansinullstrtreenodes.pas"/>
+        <UnitName Value="sdvansinullstrtreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="96"/>
+        <CursorPos X="7" Y="100"/>
+        <UsageCount Value="154"/>
+      </Unit128>
+      <Unit129>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvshortstrtreenodes.pas"/>
+        <UnitName Value="sdvshortstrtreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="96"/>
+        <CursorPos X="11" Y="100"/>
+        <UsageCount Value="154"/>
+      </Unit129>
+      <Unit130>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvstringkeyvaluetreenodes.pas"/>
+        <UnitName Value="sdvstringkeyvaluetreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="116"/>
+        <CursorPos X="31" Y="126"/>
+        <UsageCount Value="145"/>
+      </Unit130>
+      <Unit131>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvansimemotreenodes.pas"/>
+        <UnitName Value="sdvansimemotreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="26" Y="53"/>
+        <UsageCount Value="144"/>
+      </Unit131>
+      <Unit132>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvstringkeytypevaluetreenodes.pas"/>
+        <UnitName Value="sdvstringkeytypevaluetreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="26"/>
+        <CursorPos X="27" Y="121"/>
+        <UsageCount Value="142"/>
+      </Unit132>
+      <Unit133>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvkeytypevaluelisttreenodes.pas"/>
+        <UnitName Value="sdvkeytypevaluelisttreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="24" Y="11"/>
+        <UsageCount Value="140"/>
+      </Unit133>
+      <Unit134>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvmacros.pas"/>
+        <UnitName Value="sdvmacros"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="107"/>
+        <CursorPos X="34" Y="41"/>
+        <UsageCount Value="2"/>
+      </Unit134>
+      <Unit135>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvscanneroptions.pas"/>
+        <UnitName Value="sdvscanneroptions"/>
+        <UsageCount Value="2"/>
+      </Unit135>
+      <Unit136>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvscanners.pas"/>
+        <UnitName Value="sdvscanners"/>
+        <UsageCount Value="2"/>
+      </Unit136>
+      <Unit137>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvscannerstates.pas"/>
+        <UnitName Value="sdvscannerstates"/>
+        <UsageCount Value="2"/>
+      </Unit137>
+      <Unit138>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagstyles.pas"/>
+        <UnitName Value="sdvtagstyles"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="2"/>
+      </Unit138>
+      <Unit139>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagclasses.pas"/>
+        <UnitName Value="sdvtagclasses"/>
+        <UsageCount Value="2"/>
+      </Unit139>
+      <Unit140>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagdictionaries.pas"/>
+        <UnitName Value="sdvtagdictionaries"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="62"/>
+        <CursorPos X="25" Y="71"/>
+        <UsageCount Value="2"/>
+      </Unit140>
+      <Unit141>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagpages.pas"/>
+        <UnitName Value="sdvtagpages"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="101"/>
+        <CursorPos X="7" Y="110"/>
+        <UsageCount Value="2"/>
+      </Unit141>
+      <Unit142>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagprops.pas"/>
+        <UnitName Value="sdvtagprops"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="14" Y="21"/>
+        <UsageCount Value="2"/>
+      </Unit142>
+      <Unit143>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagscanners.pas"/>
+        <UnitName Value="sdvtagscanners"/>
+        <UsageCount Value="2"/>
+      </Unit143>
+      <Unit144>
+        <Filename Value="..\guidllwizard1\units\sdvscanners\sdvtagsrchtypes.pas"/>
+        <UnitName Value="sdvtagsrchtypes"/>
+        <UsageCount Value="2"/>
+      </Unit144>
+      <Unit145>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvansicharstreams.pas"/>
+        <UnitName Value="sdvansicharstreams"/>
+        <UsageCount Value="1"/>
+      </Unit145>
+      <Unit146>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvansitextstreams.pas"/>
+        <UnitName Value="sdvansitextstreams"/>
+        <UsageCount Value="1"/>
+      </Unit146>
+      <Unit147>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvfilestreams.pas"/>
+        <UnitName Value="sdvfilestreams"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="110"/>
+        <CursorPos X="15" Y="119"/>
+        <UsageCount Value="1"/>
+      </Unit147>
+      <Unit148>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvrecrefstreams.pas"/>
+        <UnitName Value="sdvrecrefstreams"/>
+        <UsageCount Value="1"/>
+      </Unit148>
+      <Unit149>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvrecstreams.pas"/>
+        <UnitName Value="sdvrecstreams"/>
+        <UsageCount Value="1"/>
+      </Unit149>
+      <Unit150>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvrefstreams.pas"/>
+        <UnitName Value="sdvrefstreams"/>
+        <UsageCount Value="1"/>
+      </Unit150>
+      <Unit151>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvshortansistrstreams.pas"/>
+        <UnitName Value="sdvshortansistrstreams"/>
+        <UsageCount Value="1"/>
+      </Unit151>
+      <Unit152>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvstatestreams.pas"/>
+        <UnitName Value="sdvstatestreams"/>
+        <UsageCount Value="1"/>
+      </Unit152>
+      <Unit153>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvstreams.pas"/>
+        <UnitName Value="sdvstreams"/>
+        <UsageCount Value="1"/>
+      </Unit153>
+      <Unit154>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvstrfilestreams.pas"/>
+        <UnitName Value="sdvstrfilestreams"/>
+        <UsageCount Value="1"/>
+      </Unit154>
+      <Unit155>
+        <Filename Value="..\guidllwizard1\units\sdvstreams\sdvstrliststreams.pas"/>
+        <UnitName Value="sdvstrliststreams"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="53"/>
+        <CursorPos X="47" Y="63"/>
+        <UsageCount Value="1"/>
+      </Unit155>
+      <Unit156>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvactivatedcontrols.pas"/>
+        <UnitName Value="sdvactivatedcontrols"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="90"/>
+        <CursorPos X="13" Y="96"/>
+        <UsageCount Value="175"/>
+      </Unit156>
+      <Unit157>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvcomponents.pas"/>
+        <UnitName Value="sdvcomponents"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="1" Y="30"/>
+        <UsageCount Value="175"/>
+      </Unit157>
+      <Unit158>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvdlgstrs.pas"/>
+        <UnitName Value="sdvdlgstrs"/>
+        <UsageCount Value="175"/>
+      </Unit158>
+      <Unit159>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvdlgtypes.pas"/>
+        <UnitName Value="sdvdlgtypes"/>
+        <UsageCount Value="175"/>
+      </Unit159>
+      <Unit160>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvidtreenodes.pas"/>
+        <UnitName Value="sdvidtreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="41"/>
+        <CursorPos X="54" Y="48"/>
+        <UsageCount Value="175"/>
+      </Unit160>
+      <Unit161>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvmsgctrls.pas"/>
+        <UnitName Value="sdvmsgctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="5" Y="26"/>
+        <UsageCount Value="175"/>
+      </Unit161>
+      <Unit162>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvmsgtypes.pas"/>
+        <UnitName Value="sdvmsgtypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="1" Y="6"/>
+        <UsageCount Value="175"/>
+      </Unit162>
+      <Unit163>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvressrchmngrs.pas"/>
+        <UnitName Value="sdvressrchmngrs"/>
+        <UsageCount Value="175"/>
+      </Unit163>
+      <Unit164>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvressrchtxtdlgs.pas"/>
+        <UnitName Value="sdvressrchtxtdlgs"/>
+        <UsageCount Value="175"/>
+      </Unit164>
+      <Unit165>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvsrchtypes.pas"/>
+        <UnitName Value="sdvsrchtypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="15" Y="6"/>
+        <UsageCount Value="175"/>
+      </Unit165>
+      <Unit166>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvtools_language.incpas"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit166>
+      <Unit167>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvmsgdlgstrs.pas"/>
+        <UnitName Value="sdvmsgdlgstrs"/>
+        <UsageCount Value="81"/>
+      </Unit167>
+      <Unit168>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvmsgdlgtypes.pas"/>
+        <UnitName Value="sdvmsgdlgtypes"/>
+        <UsageCount Value="81"/>
+      </Unit168>
+      <Unit169>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvtimestamps.pas"/>
+        <UnitName Value="sdvtimestamps"/>
+        <UsageCount Value="175"/>
+      </Unit169>
+      <Unit170>
+        <Filename Value="..\guidllwizard1\units\sdvlib\dummy.pas"/>
+        <UnitName Value="dummy"/>
+        <UsageCount Value="175"/>
+      </Unit170>
+      <Unit171>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansiarrays.pas"/>
+        <UnitName Value="sdvansiarrays"/>
+        <UsageCount Value="175"/>
+      </Unit171>
+      <Unit172>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansibreaks.pas"/>
+        <UnitName Value="sdvansibreaks"/>
+        <UsageCount Value="175"/>
+      </Unit172>
+      <Unit173>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansichars.pas"/>
+        <UnitName Value="sdvansichars"/>
+        <UsageCount Value="175"/>
+      </Unit173>
+      <Unit174>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansicharsetconsts.pas"/>
+        <UnitName Value="sdvansicharsetconsts"/>
+        <UsageCount Value="175"/>
+      </Unit174>
+      <Unit175>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansicharsets.pas"/>
+        <UnitName Value="sdvansicharsets"/>
+        <UsageCount Value="175"/>
+      </Unit175>
+      <Unit176>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansimemos.pas"/>
+        <UnitName Value="sdvansimemos"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="169"/>
+        <CursorPos X="17" Y="192"/>
+        <UsageCount Value="175"/>
+      </Unit176>
+      <Unit177>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansinullstrs.pas"/>
+        <UnitName Value="sdvansinullstrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="111"/>
+        <CursorPos X="28" Y="121"/>
+        <UsageCount Value="175"/>
+      </Unit177>
+      <Unit178>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvansistrings.pas"/>
+        <UnitName Value="sdvansistrings"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit178>
+      <Unit179>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvasciitoutf32.pas"/>
+        <UnitName Value="sdvasciitoutf32"/>
+        <UsageCount Value="175"/>
+      </Unit179>
+      <Unit180>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvbooleans.pas"/>
+        <UnitName Value="sdvbooleans"/>
+        <UsageCount Value="175"/>
+      </Unit180>
+      <Unit181>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvcomparisons.pas"/>
+        <UnitName Value="sdvcomparisons"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="9" Y="10"/>
+        <UsageCount Value="175"/>
+      </Unit181>
+      <Unit182>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvconfigs.pas"/>
+        <UnitName Value="sdvconfigs"/>
+        <UsageCount Value="175"/>
+      </Unit182>
+      <Unit183>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvdates.pas"/>
+        <UnitName Value="sdvdates"/>
+        <UsageCount Value="175"/>
+      </Unit183>
+      <Unit184>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvdatetimes.pas"/>
+        <UnitName Value="sdvdatetimes"/>
+        <UsageCount Value="175"/>
+      </Unit184>
+      <Unit185>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvdays.pas"/>
+        <UnitName Value="sdvdays"/>
+        <UsageCount Value="175"/>
+      </Unit185>
+      <Unit186>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvdoubles.pas"/>
+        <UnitName Value="sdvdoubles"/>
+        <UsageCount Value="175"/>
+      </Unit186>
+      <Unit187>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvenumstrs.pas"/>
+        <UnitName Value="sdvenumstrs"/>
+        <UsageCount Value="175"/>
+      </Unit187>
+      <Unit188>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvfilesbyhandler.pas"/>
+        <UnitName Value="sdvfilesbyhandler"/>
+        <UsageCount Value="175"/>
+      </Unit188>
+      <Unit189>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvfilesbyname.pas"/>
+        <UnitName Value="sdvfilesbyname"/>
+        <UsageCount Value="175"/>
+      </Unit189>
+      <Unit190>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvfloats.pas"/>
+        <UnitName Value="sdvfloats"/>
+        <UsageCount Value="175"/>
+      </Unit190>
+      <Unit191>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvfoldersbyname.pas"/>
+        <UnitName Value="sdvfoldersbyname"/>
+        <UsageCount Value="175"/>
+      </Unit191>
+      <Unit192>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdviterators.pas"/>
+        <UnitName Value="sdviterators"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="8" Y="9"/>
+        <UsageCount Value="175"/>
+      </Unit192>
+      <Unit193>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvkeyconsts.pas"/>
+        <UnitName Value="sdvkeyconsts"/>
+        <UsageCount Value="175"/>
+      </Unit193>
+      <Unit194>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvkeyvaluemodes.pas"/>
+        <UnitName Value="sdvkeyvaluemodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="32" Y="5"/>
+        <UsageCount Value="175"/>
+      </Unit194>
+      <Unit195>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvlangs.pas"/>
+        <UnitName Value="sdvlangs"/>
+        <UsageCount Value="175"/>
+      </Unit195>
+      <Unit196>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvlib_language.incpas"/>
+        <UsageCount Value="175"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit196>
+      <Unit197>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvlibc.pas"/>
+        <UnitName Value="sdvlibc"/>
+        <UsageCount Value="175"/>
+      </Unit197>
+      <Unit198>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvlists.pas"/>
+        <UnitName Value="sdvlists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="325"/>
+        <CursorPos X="16" Y="330"/>
+        <UsageCount Value="175"/>
+      </Unit198>
+      <Unit199>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvmonths.pas"/>
+        <UnitName Value="sdvmonths"/>
+        <UsageCount Value="175"/>
+      </Unit199>
+      <Unit200>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvnormobjects.pas"/>
+        <UnitName Value="sdvnormobjects"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="18" Y="3"/>
+        <UsageCount Value="175"/>
+      </Unit200>
+      <Unit201>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvossys.pas"/>
+        <UnitName Value="sdvossys"/>
+        <UsageCount Value="175"/>
+      </Unit201>
+      <Unit202>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvreclists.pas"/>
+        <UnitName Value="sdvreclists"/>
+        <UsageCount Value="175"/>
+      </Unit202>
+      <Unit203>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvresbooleans.pas"/>
+        <UnitName Value="sdvresbooleans"/>
+        <UsageCount Value="175"/>
+      </Unit203>
+      <Unit204>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvresconfigs.pas"/>
+        <UnitName Value="sdvresconfigs"/>
+        <UsageCount Value="175"/>
+      </Unit204>
+      <Unit205>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvresdays.pas"/>
+        <UnitName Value="sdvresdays"/>
+        <UsageCount Value="175"/>
+      </Unit205>
+      <Unit206>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvreslangs.pas"/>
+        <UnitName Value="sdvreslangs"/>
+        <UsageCount Value="175"/>
+      </Unit206>
+      <Unit207>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvreslists.pas"/>
+        <UnitName Value="sdvreslists"/>
+        <UsageCount Value="175"/>
+      </Unit207>
+      <Unit208>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvresmonths.pas"/>
+        <UnitName Value="sdvresmonths"/>
+        <UsageCount Value="175"/>
+      </Unit208>
+      <Unit209>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvshortansistrs.pas"/>
+        <UnitName Value="sdvshortansistrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="231"/>
+        <CursorPos X="15" Y="235"/>
+        <UsageCount Value="175"/>
+      </Unit209>
+      <Unit210>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvstrings.pas"/>
+        <UnitName Value="sdvstrings"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="517"/>
+        <CursorPos X="25" Y="522"/>
+        <UsageCount Value="175"/>
+      </Unit210>
+      <Unit211>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvstrparsers.pas"/>
+        <UnitName Value="sdvstrparsers"/>
+        <UsageCount Value="175"/>
+      </Unit211>
+      <Unit212>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvtextconsts.pas"/>
+        <UnitName Value="sdvtextconsts"/>
+        <UsageCount Value="175"/>
+      </Unit212>
+      <Unit213>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvtextmarkers.pas"/>
+        <UnitName Value="sdvtextmarkers"/>
+        <UsageCount Value="175"/>
+      </Unit213>
+      <Unit214>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvtimes.pas"/>
+        <UnitName Value="sdvtimes"/>
+        <UsageCount Value="175"/>
+      </Unit214>
+      <Unit215>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvtreestates.pas"/>
+        <UnitName Value="sdvtreestates"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="34" Y="4"/>
+        <UsageCount Value="175"/>
+      </Unit215>
+      <Unit216>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvonlystringkeytypevaluelists.pas"/>
+        <UnitName Value="sdvonlystringkeytypevaluelists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="145"/>
+        <CursorPos X="34" Y="60"/>
+        <UsageCount Value="175"/>
+      </Unit216>
+      <Unit217>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvkeytypevaluetokens.pas"/>
+        <UnitName Value="sdvkeytypevaluetokens"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="175"/>
+      </Unit217>
+      <Unit218>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvdelegtreecntrs.pas"/>
+        <UnitName Value="sdvdelegtreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="366"/>
+        <CursorPos X="1" Y="366"/>
+        <UsageCount Value="175"/>
+      </Unit218>
+      <Unit219>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvguids.pas"/>
+        <UnitName Value="sdvguids"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="10" Y="4"/>
+        <UsageCount Value="151"/>
+      </Unit219>
+      <Unit220>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvhexas.pas"/>
+        <UnitName Value="sdvhexas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="178"/>
+        <CursorPos X="21" Y="184"/>
+        <UsageCount Value="90"/>
+      </Unit220>
+      <Unit221>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvdecs.pas"/>
+        <UnitName Value="sdvdecs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="90"/>
+      </Unit221>
+      <Unit222>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvguidstrs.pas"/>
+        <UnitName Value="sdvguidstrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="130"/>
+        <CursorPos X="17" Y="1"/>
+        <UsageCount Value="81"/>
+      </Unit222>
+      <Unit223>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvobjtypes.pas"/>
+        <UnitName Value="sdvobjtypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="67"/>
+        <CursorPos X="37" Y="77"/>
+        <UsageCount Value="63"/>
+      </Unit223>
+      <Unit224>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvonlystringkeyvaluelists.pas"/>
+        <UnitName Value="sdvonlystringkeyvaluelists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="389"/>
+        <CursorPos X="37" Y="397"/>
+        <UsageCount Value="63"/>
+      </Unit224>
+      <Unit225>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvstrstrlists.pas"/>
+        <UnitName Value="sdvstrstrlists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="34" Y="64"/>
+        <UsageCount Value="62"/>
+      </Unit225>
+      <Unit226>
+        <Filename Value="units\xmlfiletokens.pas"/>
+        <UnitName Value="xmlfiletokens"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="139"/>
+        <CursorPos X="26" Y="130"/>
+        <UsageCount Value="169"/>
+      </Unit226>
+      <Unit227>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\borrame.pas"/>
+        <ComponentName Value="sdvfrmInputStringsBorrame"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="borrame"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="2"/>
+        <CursorPos X="1" Y="59"/>
+        <UsageCount Value="168"/>
+      </Unit227>
+      <Unit228>
+        <Filename Value="..\guidllwizard1\units\sdvdlgs\sdvmsgarrays.pas"/>
+        <UnitName Value="sdvmsgarrays"/>
+        <UsageCount Value="168"/>
+      </Unit228>
+      <Unit229>
+        <Filename Value="..\guidllwizard1\units\sdvtools\sdvmsgtreecntrs.pas"/>
+        <UnitName Value="sdvmsgtreecntrs"/>
+        <UsageCount Value="15"/>
+      </Unit229>
+      <Unit230>
+        <Filename Value="..\guidllwizard1\units\sdvtrees\sdvmsgtreecntrs.pas"/>
+        <UnitName Value="sdvmsgtreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="29"/>
+        <CursorPos X="43" Y="59"/>
+        <UsageCount Value="169"/>
+      </Unit230>
+      <Unit231>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvhackedtreenodes.pas"/>
+        <UnitName Value="vclsdvhackedtreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="95"/>
+        <CursorPos X="14" Y="105"/>
+        <UsageCount Value="141"/>
+      </Unit231>
+      <Unit232>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvhackedtreeviews.pas"/>
+        <UnitName Value="vclsdvhackedtreeviews"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="698"/>
+        <CursorPos X="1" Y="696"/>
+        <UsageCount Value="141"/>
+      </Unit232>
+      <Unit233>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvhackedtreeviewsres.lrs"/>
+        <UsageCount Value="141"/>
+      </Unit233>
+      <Unit234>
+        <Filename Value="..\guidllwizard1\units\sdvctrls\vclsdvmsghackedtreeviews.pas"/>
+        <UnitName Value="vclsdvmsghackedtreeviews"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="269"/>
+        <CursorPos X="37" Y="279"/>
+        <UsageCount Value="141"/>
+        <Bookmarks Count="1">
+          <Item0 X="44" Y="273" ID="0"/>
+        </Bookmarks>
+      </Unit234>
+      <Unit235>
+        <Filename Value="..\guidllwizard1\units\sdvlib\sdvuids.pas"/>
+        <UnitName Value="sdvuids"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="9"/>
+        <UsageCount Value="88"/>
+      </Unit235>
+      <Unit236>
+        <Filename Value="units\sdvsxmldocs.pas"/>
+        <UnitName Value="sdvsxmldocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit236>
+      <Unit237>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvstrstrlists.pas"/>
+        <UnitName Value="sdvstrstrlists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="4"/>
+        <CursorPos X="1" Y="8"/>
+        <UsageCount Value="5"/>
+      </Unit237>
+      <Unit238>
+        <Filename Value="..\..\packages\sdvtools\laz60\runsdvtools60.pas"/>
+        <UnitName Value="runsdvtools60"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3"/>
+        <CursorPos X="45" Y="12"/>
+        <UsageCount Value="5"/>
+      </Unit238>
+      <Unit239>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvdocs.pas"/>
+        <UnitName Value="sdvdocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="872"/>
+        <CursorPos X="3" Y="874"/>
+        <UsageCount Value="34"/>
+      </Unit239>
+      <Unit240>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvdocsres.pas"/>
+        <UnitName Value="sdvdocsres"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="17" Y="2"/>
+        <UsageCount Value="5"/>
+      </Unit240>
+      <Unit241>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvtools_language.incpas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit241>
+      <Unit242>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvbookmngrs.pas"/>
+        <UnitName Value="sdvbookmngrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="198"/>
+        <CursorPos X="42" Y="206"/>
+        <UsageCount Value="5"/>
+      </Unit242>
+      <Unit243>
+        <Filename Value="..\..\packages\sdvscanners\laz60\sources\sdvtagpages.pas"/>
+        <UnitName Value="sdvtagpages"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit243>
+      <Unit244>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\vclsdvdblinks.pas"/>
+        <UnitName Value="vclsdvdblinks"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="112"/>
+        <CursorPos X="32" Y="121"/>
+        <UsageCount Value="5"/>
+      </Unit244>
+      <Unit245>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvarrownavs.pas"/>
+        <UnitName Value="sdvarrownavs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="919"/>
+        <CursorPos X="16" Y="922"/>
+        <UsageCount Value="4"/>
+      </Unit245>
+      <Unit246>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvcomboboxes.pas"/>
+        <UnitName Value="sdvcomboboxes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="530"/>
+        <CursorPos X="8" Y="531"/>
+        <UsageCount Value="10"/>
+      </Unit246>
+      <Unit247>
+        <Filename Value="C:\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="355"/>
+        <CursorPos X="1" Y="369"/>
+        <UsageCount Value="5"/>
+      </Unit247>
+      <Unit248>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvsxmltreecntrs.pas"/>
+        <UnitName Value="sdvsxmltreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="136"/>
+        <CursorPos X="52" Y="142"/>
+        <UsageCount Value="21"/>
+      </Unit248>
+      <Unit249>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvxmlfilematrix.incpas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit249>
+      <Unit250>
+        <Filename Value="..\..\packages\sdvtrees\laz60\sources\sdvtreecntrs.pas"/>
+        <UnitName Value="sdvtreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="285"/>
+        <CursorPos X="3" Y="288"/>
+        <UsageCount Value="5"/>
+      </Unit250>
+      <Unit251>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvxmltagtokens.pas"/>
+        <UnitName Value="sdvxmltagtokens"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit251>
+      <Unit252>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvxmlfilegroups.pas"/>
+        <UnitName Value="sdvxmlfilegroups"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit252>
+      <Unit253>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvxmltagansisymbols.pas"/>
+        <UnitName Value="sdvxmltagansisymbols"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="11"/>
+        <CursorPos X="6" Y="6"/>
+        <UsageCount Value="5"/>
+      </Unit253>
+      <Unit254>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvxmltagmatrix.incpas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit254>
+      <Unit255>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvshortansistrs.pas"/>
+        <UnitName Value="sdvshortansistrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit255>
+      <Unit256>
+        <Filename Value="C:\lazarus\components\lazutils\lazfileutils.pas"/>
+        <UnitName Value="LazFileUtils"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="704"/>
+        <CursorPos X="3" Y="706"/>
+        <UsageCount Value="5"/>
+      </Unit256>
+      <Unit257>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvpanels.pas"/>
+        <UnitName Value="sdvpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="147"/>
+        <CursorPos X="24" Y="156"/>
+        <UsageCount Value="4"/>
+      </Unit257>
+      <Unit258>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvactivatedcontrols.pas"/>
+        <UnitName Value="sdvactivatedcontrols"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="69"/>
+        <CursorPos X="1" Y="78"/>
+        <UsageCount Value="2"/>
+      </Unit258>
+      <Unit259>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvpaths.pas"/>
+        <UnitName Value="sdvpaths"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="1" Y="16"/>
+        <UsageCount Value="5"/>
+      </Unit259>
+      <Unit260>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvstdevents.pas"/>
+        <UnitName Value="sdvstdevents"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="9"/>
+        <UsageCount Value="10"/>
+      </Unit260>
+      <Unit261>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvstdevents.pas"/>
+        <UnitName Value="sdvstdevents"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="30"/>
+        <CursorPos X="11" Y="19"/>
+        <UsageCount Value="4"/>
+      </Unit261>
+      <Unit262>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvxmlfileexts.pas"/>
+        <UnitName Value="sdvxmlfileexts"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="55"/>
+        <CursorPos X="1" Y="68"/>
+        <UsageCount Value="1"/>
+      </Unit262>
+      <Unit263>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\sdvsxmlfileexts.pas"/>
+        <UnitName Value="sdvsxmlfileexts"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="13" Y="25"/>
+        <UsageCount Value="5"/>
+      </Unit263>
+      <Unit264>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvnormpanels.pas"/>
+        <UnitName Value="sdvnormpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="30"/>
+        <CursorPos X="19" Y="41"/>
+        <UsageCount Value="2"/>
+      </Unit264>
+      <Unit265>
+        <Filename Value="..\..\packages\sdvtools\laz60\sources\sdvmsgctrls.pas"/>
+        <UnitName Value="sdvmsgctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="160"/>
+        <CursorPos X="28" Y="83"/>
+        <UsageCount Value="5"/>
+      </Unit265>
+      <Unit266>
+        <Filename Value="C:\lazarus\components\synedit\allsynedit.pas"/>
+        <UnitName Value="allsynedit"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="16" Y="7"/>
+        <UsageCount Value="5"/>
+      </Unit266>
+      <Unit267>
+        <Filename Value="C:\lazarus\components\synedit\synpropertyeditobjectlist.pas"/>
+        <UnitName Value="SynPropertyEditObjectList"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="20"/>
+        <CursorPos X="3" Y="29"/>
+        <UsageCount Value="5"/>
+      </Unit267>
+      <Unit268>
+        <Filename Value="C:\lazarus\ide\buildlazdialog.pas"/>
+        <ComponentName Value="ConfigureBuildLazarusDlg"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="BuildLazDialog"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="42"/>
+        <CursorPos X="3" Y="51"/>
+        <UsageCount Value="5"/>
+      </Unit268>
+      <Unit269>
+        <Filename Value="C:\lazarus\components\lazcontrols\dividerbevel.pas"/>
+        <UnitName Value="DividerBevel"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit269>
+      <Unit270>
+        <Filename Value="C:\lazarus\components\lazutils\lazutf8classes.pas"/>
+        <UnitName Value="lazutf8classes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+      </Unit270>
+      <Unit271>
+        <Filename Value="C:\lazarus\components\printers\design\sourceprinter.pas"/>
+        <UnitName Value="SourcePrinter"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="42" Y="26"/>
+        <UsageCount Value="17"/>
+      </Unit271>
+      <Unit272>
+        <Filename Value="C:\lazarus\components\printers\readme.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="6" Y="27"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit272>
+      <Unit273>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvgradpanels.pas"/>
+        <UnitName Value="sdvgradpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="142"/>
+        <CursorPos X="41" Y="147"/>
+        <UsageCount Value="4"/>
+      </Unit273>
+      <Unit274>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvarrownavstrs.pas"/>
+        <UnitName Value="sdvarrownavstrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="106"/>
+        <CursorPos X="33" Y="71"/>
+        <UsageCount Value="4"/>
+      </Unit274>
+      <Unit275>
+        <Filename Value="C:\lazarus\lcl\extctrls.pp"/>
+        <UnitName Value="ExtCtrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="935"/>
+        <CursorPos X="36" Y="947"/>
+        <UsageCount Value="2"/>
+      </Unit275>
+      <Unit276>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvfixedbtnpanels.pas"/>
+        <UnitName Value="sdvfixedbtnpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="159"/>
+        <CursorPos X="45" Y="49"/>
+        <UsageCount Value="41"/>
+      </Unit276>
+      <Unit277>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvclosenavbtns.pas"/>
+        <UnitName Value="sdvclosenavbtns"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="14"/>
+        <CursorPos X="1" Y="24"/>
+        <UsageCount Value="11"/>
+      </Unit277>
+      <Unit278>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvclosenavs.pas"/>
+        <UnitName Value="sdvclosenavs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="372"/>
+        <CursorPos X="1" Y="381"/>
+        <UsageCount Value="23"/>
+      </Unit278>
+      <Unit279>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvclosenavenums.pas"/>
+        <UnitName Value="sdvclosenavenums"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="22" Y="16"/>
+        <UsageCount Value="4"/>
+      </Unit279>
+      <Unit280>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvhclosenavs.pas"/>
+        <UnitName Value="sdvhclosenavs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="1" Y="26"/>
+        <UsageCount Value="4"/>
+      </Unit280>
+      <Unit281>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvvclosenavs.pas"/>
+        <UnitName Value="sdvvclosenavs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="17"/>
+        <CursorPos X="1" Y="26"/>
+        <UsageCount Value="4"/>
+      </Unit281>
+      <Unit282>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvheaderpanels.pas"/>
+        <UnitName Value="sdvheaderpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="168"/>
+        <CursorPos X="20" Y="172"/>
+        <UsageCount Value="4"/>
+      </Unit282>
+      <Unit283>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvctrlenums.pas"/>
+        <UnitName Value="sdvctrlenums"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="14" Y="3"/>
+        <UsageCount Value="27"/>
+      </Unit283>
+      <Unit284>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1912"/>
+        <CursorPos X="1" Y="1924"/>
+        <UsageCount Value="2"/>
+      </Unit284>
+      <Unit285>
+        <Filename Value="C:\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="138"/>
+        <CursorPos X="3" Y="147"/>
+        <UsageCount Value="4"/>
+      </Unit285>
+      <Unit286>
+        <Filename Value="C:\lazarus\lcl\include\customcontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="97"/>
+        <CursorPos X="3" Y="106"/>
+        <UsageCount Value="2"/>
+      </Unit286>
+      <Unit287>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="6150"/>
+        <CursorPos X="17" Y="6052"/>
+        <UsageCount Value="2"/>
+      </Unit287>
+      <Unit288>
+        <Filename Value="C:\lazarus\lcl\include\canvas.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1791"/>
+        <CursorPos X="3" Y="1787"/>
+        <UsageCount Value="2"/>
+      </Unit288>
+      <Unit289>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="3487"/>
+        <CursorPos X="3" Y="3482"/>
+        <UsageCount Value="2"/>
+      </Unit289>
+      <Unit290>
+        <Filename Value="C:\lazarus\fpc\2.6.0\source\rtl\objpas\math.pp"/>
+        <UnitName Value="math"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="487"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="2"/>
+      </Unit290>
+      <Unit291>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvrgbs.pas"/>
+        <UnitName Value="sdvrgbs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="44"/>
+        <CursorPos X="13" Y="53"/>
+        <UsageCount Value="2"/>
+      </Unit291>
+      <Unit292>
+        <Filename Value="C:\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1867"/>
+        <CursorPos X="3" Y="1642"/>
+        <UsageCount Value="2"/>
+      </Unit292>
+      <Unit293>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvrgbstrs.pas"/>
+        <UnitName Value="sdvrgbstrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="21"/>
+        <CursorPos X="1" Y="21"/>
+        <UsageCount Value="2"/>
+      </Unit293>
+      <Unit294>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdveventargs.pas"/>
+        <UnitName Value="sdveventargs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="49"/>
+        <CursorPos X="22" Y="29"/>
+        <UsageCount Value="4"/>
+      </Unit294>
+      <Unit295>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvnormobjects.pas"/>
+        <UnitName Value="sdvnormobjects"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="58"/>
+        <CursorPos X="25" Y="63"/>
+        <UsageCount Value="4"/>
+      </Unit295>
+      <Unit296>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvevargbtns.pas"/>
+        <UnitName Value="sdvevargbtns"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="32"/>
+        <CursorPos X="45" Y="38"/>
+        <UsageCount Value="4"/>
+      </Unit296>
+      <Unit297>
+        <Filename Value="..\..\packages\sdvctrls\laz60\sources\sdvspeedbtns.pas"/>
+        <UnitName Value="sdvspeedbtns"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="90"/>
+        <CursorPos X="26" Y="96"/>
+        <UsageCount Value="4"/>
+      </Unit297>
+      <Unit298>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvclosenavstrs.pas"/>
+        <UnitName Value="sdvclosenavstrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="24"/>
+        <CursorPos X="1" Y="24"/>
+        <UsageCount Value="4"/>
+      </Unit298>
+      <Unit299>
+        <Filename Value="..\..\packages\sdvnavs\laz60\sources\sdvclosenavs.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="4"/>
+      </Unit299>
+      <Unit300>
+        <Filename Value="sdvvomldocs.pas"/>
+        <UnitName Value="sdvvomldocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="8" Y="9"/>
+        <UsageCount Value="15"/>
+      </Unit300>
+      <Unit301>
+        <Filename Value="..\..\packages\sdvxml\laz60\sources\runsdvxml60_language.incpas"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit301>
+      <Unit302>
+        <Filename Value="..\..\packages\sdvlib\laz60\sources\sdvstrings.pas"/>
+        <UnitName Value="sdvstrings"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="60"/>
+        <CursorPos X="12" Y="69"/>
+        <UsageCount Value="5"/>
+      </Unit302>
+      <Unit303>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\sdvdblinks.pas"/>
+        <UnitName Value="sdvdblinks"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="114"/>
+        <CursorPos X="32" Y="121"/>
+        <UsageCount Value="7"/>
+      </Unit303>
+      <Unit304>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\sdvstrparsers.pas"/>
+        <UnitName Value="sdvstrparsers"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit304>
+      <Unit305>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\sdvcontroltreenodes.pas"/>
+        <UnitName Value="sdvcontroltreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit305>
+      <Unit306>
+        <Filename Value="..\..\packages\umlctools\laz60\design\sdvtoolsregister.pas"/>
+        <UnitName Value="sdvtoolsregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="28"/>
+        <CursorPos X="25" Y="32"/>
+        <UsageCount Value="7"/>
+      </Unit306>
+      <Unit307>
+        <Filename Value="..\..\packages\umlcstreams\laz60\design\sdvstreamsregister.pas"/>
+        <UnitName Value="sdvstreamsregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="33"/>
+        <CursorPos X="28" Y="38"/>
+        <UsageCount Value="7"/>
+      </Unit307>
+      <Unit308>
+        <Filename Value="..\..\packages\umlctrees\laz60\design\sdvtreesregister.pas"/>
+        <UnitName Value="sdvtreesregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="24" Y="24"/>
+        <UsageCount Value="7"/>
+      </Unit308>
+      <Unit309>
+        <Filename Value="..\..\packages\umlcscanners\laz60\design\sdvscannersregister.pas"/>
+        <UnitName Value="sdvscannersregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="18"/>
+        <CursorPos X="22" Y="27"/>
+        <UsageCount Value="7"/>
+      </Unit309>
+      <Unit310>
+        <Filename Value="..\..\packages\umlcctrls\laz60\design\sdvctrlsregister.pas"/>
+        <UnitName Value="sdvctrlsregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="88"/>
+        <CursorPos X="29" Y="97"/>
+        <UsageCount Value="7"/>
+      </Unit310>
+      <Unit311>
+        <Filename Value="..\..\packages\umlcxml\laz60\sources\sdvxmltreecntrs.pas"/>
+        <UnitName Value="sdvxmltreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit311>
+      <Unit312>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\sdvtoolbars.pas"/>
+        <UnitName Value="sdvtoolbars"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="104"/>
+        <CursorPos X="22" Y="117"/>
+        <UsageCount Value="7"/>
+      </Unit312>
+      <Unit313>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\sdvpanels.pas"/>
+        <UnitName Value="sdvpanels"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="126"/>
+        <CursorPos X="1" Y="125"/>
+        <UsageCount Value="7"/>
+      </Unit313>
+      <Unit314>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktlib_language.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="18" Y="13"/>
+        <UsageCount Value="7"/>
+      </Unit314>
+      <Unit315>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktkeytypevaluetokens.pas"/>
+        <UnitName Value="uktkeytypevaluetokens"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="108"/>
+        <CursorPos X="48" Y="117"/>
+        <UsageCount Value="7"/>
+      </Unit315>
+      <Unit316>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktstrstrlists.pas"/>
+        <UnitName Value="uktstrstrlists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="6" Y="24"/>
+        <UsageCount Value="7"/>
+      </Unit316>
+      <Unit317>
+        <Filename Value="..\..\packages\umlcxml\laz60\sources\uktxmltreecntrs.pas"/>
+        <UnitName Value="uktxmltreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="136"/>
+        <CursorPos X="15" Y="234"/>
+        <UsageCount Value="7"/>
+      </Unit317>
+      <Unit318>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktlists.pas"/>
+        <UnitName Value="uktlists"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="8"/>
+      </Unit318>
+      <Unit319>
+        <Filename Value="..\..\packages\umlctrees\laz60\sources\ukttreenodes.pas"/>
+        <UnitName Value="ukttreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="16"/>
+        <CursorPos X="6" Y="26"/>
+        <UsageCount Value="7"/>
+      </Unit319>
+      <Unit320>
+        <Filename Value="..\..\packages\umlctools\laz60\sources\uktdocs.pas"/>
+        <UnitName Value="uktdocs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="905"/>
+        <CursorPos X="1" Y="914"/>
+        <UsageCount Value="8"/>
+      </Unit320>
+      <Unit321>
+        <Filename Value="..\..\packages\umlctrees\laz60\sources\ukttreecntrs.pas"/>
+        <UnitName Value="ukttreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="454"/>
+        <CursorPos X="1" Y="469"/>
+        <UsageCount Value="7"/>
+      </Unit321>
+      <Unit322>
+        <Filename Value="..\..\packages\umlctrees\laz60\sources\uktmsgtreecntrs.pas"/>
+        <UnitName Value="uktmsgtreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="210"/>
+        <CursorPos X="1" Y="220"/>
+        <UsageCount Value="7"/>
+      </Unit322>
+      <Unit323>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\uktmsgpaneltreeviews.pas"/>
+        <UnitName Value="uktmsgpaneltreeviews"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="658"/>
+        <CursorPos X="1" Y="667"/>
+        <UsageCount Value="7"/>
+      </Unit323>
+      <Unit324>
+        <Filename Value="..\..\packages\umlcxml\laz60\sources\uktsxmltreecntrs.pas"/>
+        <UnitName Value="uktsxmltreecntrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="307"/>
+        <CursorPos X="1" Y="316"/>
+        <UsageCount Value="7"/>
+      </Unit324>
+      <Unit325>
+        <Filename Value="..\..\packages\umlctrees\laz60\sources\ukttextreenodes.pas"/>
+        <UnitName Value="ukttextreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="181"/>
+        <CursorPos X="1" Y="192"/>
+        <UsageCount Value="7"/>
+      </Unit325>
+      <Unit326>
+        <Filename Value="..\..\packages\umlctools\laz60\sources\uktcomponents.pas"/>
+        <UnitName Value="uktcomponents"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="118"/>
+        <CursorPos X="1" Y="108"/>
+        <UsageCount Value="7"/>
+      </Unit326>
+      <Unit327>
+        <Filename Value="..\..\packages\umlcxml\laz60\sources\uktxmlfileansisymbols.pas"/>
+        <UnitName Value="uktxmlfileansisymbols"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="52"/>
+        <CursorPos X="1" Y="62"/>
+        <UsageCount Value="7"/>
+      </Unit327>
+      <Unit328>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\uktcontroltreenodes.pas"/>
+        <UnitName Value="uktcontroltreenodes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="572"/>
+        <CursorPos X="20" Y="573"/>
+        <UsageCount Value="7"/>
+      </Unit328>
+      <Unit329>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktansichars.pas"/>
+        <UnitName Value="uktansichars"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="197"/>
+        <CursorPos X="39" Y="212"/>
+        <UsageCount Value="7"/>
+      </Unit329>
+      <Unit330>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktasciitoutf32.pas"/>
+        <UnitName Value="uktasciitoutf32"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="103"/>
+        <CursorPos X="21" Y="118"/>
+        <UsageCount Value="7"/>
+      </Unit330>
+      <Unit331>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktdates.pas"/>
+        <UnitName Value="uktdates"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="200"/>
+        <CursorPos X="21" Y="215"/>
+        <UsageCount Value="7"/>
+      </Unit331>
+      <Unit332>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktconfigs.pas"/>
+        <UnitName Value="uktconfigs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="140"/>
+        <CursorPos X="40" Y="149"/>
+        <UsageCount Value="7"/>
+      </Unit332>
+      <Unit333>
+        <Filename Value="..\..\packages\umlclib\laz60\sources\uktfoldersbyname.pas"/>
+        <UnitName Value="uktfoldersbyname"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="46"/>
+        <CursorPos X="43" Y="61"/>
+        <UsageCount Value="7"/>
+      </Unit333>
+      <Unit334>
+        <Filename Value="..\..\packages\umlctools\laz60\sources\uktactivatedcontrols.pas"/>
+        <UnitName Value="uktactivatedcontrols"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="84"/>
+        <CursorPos X="55" Y="93"/>
+        <UsageCount Value="7"/>
+      </Unit334>
+      <Unit335>
+        <Filename Value="..\..\packages\umlcstreams\laz60\design\uktstreamsregister.pas"/>
+        <UnitName Value="uktstreamsregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="42"/>
+        <CursorPos X="3" Y="54"/>
+        <UsageCount Value="7"/>
+      </Unit335>
+      <Unit336>
+        <Filename Value="..\..\packages\umlctrees\laz60\design\ukttreesregister.pas"/>
+        <UnitName Value="ukttreesregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit336>
+      <Unit337>
+        <Filename Value="..\..\packages\umlcscanners\laz60\design\uktscannersregister.pas"/>
+        <UnitName Value="uktscannersregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="22"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit337>
+      <Unit338>
+        <Filename Value="..\..\packages\umlcdialogs\laz60\sources\ukttransdlgs.pas"/>
+        <UnitName Value="ukttransdlgs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="19"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit338>
+      <Unit339>
+        <Filename Value="..\..\packages\umlcdialogs\laz60\sources\uktinputdlgs.pas"/>
+        <UnitName Value="uktinputdlgs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="76"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit339>
+      <Unit340>
+        <Filename Value="..\..\packages\umlcdialogs\laz60\design\uktdialogsregister.pas"/>
+        <UnitName Value="uktdialogsregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="29"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit340>
+      <Unit341>
+        <Filename Value="..\..\packages\umlcdialogs\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="229"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit341>
+      <Unit342>
+        <Filename Value="..\..\packages\umlctools\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit342>
+      <Unit343>
+        <Filename Value="..\..\packages\umlcstreams\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit343>
+      <Unit344>
+        <Filename Value="..\..\packages\umlctrees\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit344>
+      <Unit345>
+        <Filename Value="..\..\packages\umlcscanners\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit345>
+      <Unit346>
+        <Filename Value="..\..\packages\umlcctrls\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit346>
+      <Unit347>
+        <Filename Value="..\..\packages\umlcfctrls\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit347>
+      <Unit348>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\uktedits.pas"/>
+        <UnitName Value="uktedits"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="9" Y="34"/>
+        <UsageCount Value="7"/>
+      </Unit348>
+      <Unit349>
+        <Filename Value="..\..\packages\umlcfctrls\laz60\sources\uktfedits.pas"/>
+        <UnitName Value="uktfedits"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit349>
+      <Unit350>
+        <Filename Value="..\..\packages\umlcctrls\laz60\sources\uktctrls.pas"/>
+        <UnitName Value="uktctrls"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+      </Unit350>
+      <Unit351>
+        <Filename Value="..\..\packages\umlcxml\laz60\docs\copying.lgpl.txt"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit351>
+      <Unit352>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbfdb.pas"/>
+        <UnitName Value="uktdbfdb"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="13" Y="18"/>
+        <UsageCount Value="10"/>
+      </Unit352>
+      <Unit353>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbfconsts.pas"/>
+        <UnitName Value="uktdbfconsts"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit353>
+      <Unit354>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbfgetstrfromint.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="25"/>
+        <CursorPos X="7" Y="42"/>
+        <UsageCount Value="10"/>
+      </Unit354>
+      <Unit355>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbfstr.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit355>
+      <Unit356>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbfstruct.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="128"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit356>
+      <Unit357>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbftables.pas"/>
+        <UnitName Value="uktdbftables"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="145"/>
+        <CursorPos X="6" Y="22"/>
+        <UsageCount Value="10"/>
+      </Unit357>
+      <Unit358>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbftypes.pas"/>
+        <UnitName Value="uktdbftypes"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit358>
+      <Unit359>
+        <Filename Value="..\..\packages\uktdbf\units\uktdbfcommon.inc"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="245"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit359>
+      <Unit360>
+        <Filename Value="..\..\packages\uktdbf\design\uktdbfreg.pas"/>
+        <UnitName Value="uktdbfreg"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="10"/>
+        <CursorPos X="1" Y="21"/>
+        <UsageCount Value="10"/>
+      </Unit360>
+      <Unit361>
+        <Filename Value="..\..\packages\uktfctrls\laz60\design\uktfctrlsregister.pas"/>
+        <UnitName Value="uktfctrlsregister"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="13"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit361>
+      <Unit362>
+        <Filename Value="..\..\packages\uktdbf\design\uktdbftables.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit362>
+      <Unit363>
+        <Filename Value="..\..\packages\uktdbf\design\uktdbfdb.lrs"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="1"/>
+        <CursorPos X="1" Y="1"/>
+        <UsageCount Value="10"/>
+      </Unit363>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2121" Column="1" TopLine="2106"/>
+      </Position1>
+      <Position2>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2122" Column="1" TopLine="2107"/>
+      </Position2>
+      <Position3>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2123" Column="1" TopLine="2108"/>
+      </Position3>
+      <Position4>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2124" Column="1" TopLine="2109"/>
+      </Position4>
+      <Position5>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2126" Column="1" TopLine="2111"/>
+      </Position5>
+      <Position6>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2127" Column="1" TopLine="2112"/>
+      </Position6>
+      <Position7>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2221" Column="27" TopLine="2212"/>
+      </Position7>
+      <Position8>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2222" Column="26" TopLine="2212"/>
+      </Position8>
+      <Position9>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position9>
+      <Position10>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="7" Column="35" TopLine="25"/>
+      </Position10>
+      <Position11>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="142" Column="45" TopLine="127"/>
+      </Position11>
+      <Position12>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="54" Column="4" TopLine="47"/>
+      </Position12>
+      <Position13>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="4" Column="34" TopLine="1"/>
+      </Position13>
+      <Position14>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="727" Column="43" TopLine="721"/>
+      </Position14>
+      <Position15>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="1" Column="1" TopLine="61"/>
+      </Position15>
+      <Position16>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="62" Column="24" TopLine="53"/>
+      </Position16>
+      <Position17>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position17>
+      <Position18>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <Caret Line="218" Column="14" TopLine="203"/>
+      </Position18>
+      <Position19>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <Caret Line="39" Column="47" TopLine="30"/>
+      </Position19>
+      <Position20>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position20>
+      <Position21>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <Caret Line="196" Column="25" TopLine="181"/>
+      </Position21>
+      <Position22>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position22>
+      <Position23>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="29" Column="6" TopLine="22"/>
+      </Position23>
+      <Position24>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="325" Column="47" TopLine="316"/>
+      </Position24>
+      <Position25>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position25>
+      <Position26>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2380" Column="29" TopLine="2365"/>
+      </Position26>
+      <Position27>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position27>
+      <Position28>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2340" Column="25" TopLine="2325"/>
+      </Position28>
+      <Position29>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="2452" Column="31" TopLine="2443"/>
+      </Position29>
+      <Position30>
+        <Filename Value="ufrmmain.pas"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="..\guidllwizard1\units\sdvtrees\sdvtreenodes.pas"/>
+        <Line Value="472"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="sxmlpad"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|incpas|lfm|lpr|lrs|lpi|lpk|sh|xml|sxml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="10">
+      <Item1>
+        <PackageName Value="runuktxml60"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="runuktfctrls60"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="runuktctrls60"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="runuktdialogs60"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="runuktscanners60"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="runukttrees60"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="runuktstreams60"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="runukttools60"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="runuktlib60"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="LCL"/>
+      </Item10>
+    </RequiredPackages>
+    <Units Count="8">
+      <Unit0>
+        <Filename Value="sxmlpad.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="sxmlpad"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="ufrmmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmmain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmmain"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="udmmainshared.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmMainShared"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="udmMainShared"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uktansisxmldocs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uktansisxmldocs"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="sxmlpad_language.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uresmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uresmain"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uktsxmlpaneltreeviews.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uktsxmlpaneltreeviews"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uktansisxmldocres.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uktansisxmldocres"/>
+      </Unit7>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="sxmlpad"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="C:\lazarus\components\synedit\;C:\lazarus\components\lazcontrols\"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

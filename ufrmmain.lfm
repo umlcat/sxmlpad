@@ -1,0 +1,1124 @@
+object frmmain: Tfrmmain
+  Left = 184
+  Height = 409
+  Top = 136
+  Width = 506
+  Caption = 'SimpleXML NotePad'
+  ClientHeight = 389
+  ClientWidth = 506
+  Menu = MainMenuBar
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnShow = FormShow
+  Position = poDesktopCenter
+  LCLVersion = '1.0.1.3'
+  WindowState = wsMaximized
+  object MainStatusBar: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 366
+    Width = 506
+    Panels = <>
+  end
+  object MainPanel: TPanel
+    Left = 0
+    Height = 366
+    Top = 0
+    Width = 506
+    Align = alClient
+    BevelOuter = bvNone
+    Caption = 'MainPanel'
+    ClientHeight = 366
+    ClientWidth = 506
+    Color = clGray
+    ParentColor = False
+    ParentFont = False
+    TabOrder = 1
+    object TopPanel: TPanel
+      Left = 0
+      Height = 176
+      Top = 0
+      Width = 506
+      Align = alTop
+      BevelOuter = bvNone
+      Caption = 'TopPanel'
+      ClientHeight = 176
+      ClientWidth = 506
+      Color = clSilver
+      ParentColor = False
+      ParentFont = False
+      TabOrder = 0
+      object ToolBarsPanel: TPanel
+        Left = 0
+        Height = 136
+        Top = 40
+        Width = 506
+        Align = alClient
+        BevelOuter = bvNone
+        Caption = 'ToolBarsPanel'
+        ClientHeight = 136
+        ClientWidth = 506
+        Color = clGray
+        ParentColor = False
+        TabOrder = 0
+        object FileToolBar: TToolBar
+          Left = 0
+          Height = 26
+          Top = 0
+          Width = 506
+          Caption = 'FileToolBar'
+          Color = clBtnFace
+          Images = dmMainShared.MainImages
+          ParentColor = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 0
+          object FileNewToolButton: TToolButton
+            Left = 1
+            Top = 2
+            Action = acFileNew
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object FileExitToolButton: TToolButton
+            Left = 259
+            Top = 2
+            Action = acFileExit
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbFileOpen: TToolButton
+            Left = 47
+            Top = 2
+            Action = acFileOpen
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbFileSave: TToolButton
+            Left = 93
+            Top = 2
+            Action = acFileSave
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object ToolButton3: TToolButton
+            Left = 208
+            Top = 2
+            Width = 5
+            Caption = 'ToolButton3'
+            Style = tbsDivider
+          end
+          object tbFileSaveAs: TToolButton
+            Left = 116
+            Top = 2
+            Action = acFileSaveAs
+            OnMouseMove = AnyToolButtonMouseMove
+            Style = tbsCheck
+          end
+          object tbFileSaveRename: TToolButton
+            Left = 139
+            Top = 2
+            Action = acFileSaveRename
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbFileOptions: TToolButton
+            Left = 213
+            Top = 2
+            Action = acFileOptions
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbFileSavePreview: TToolButton
+            Left = 162
+            Top = 2
+            Action = acFileSavePreview
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbFileNewAs: TToolButton
+            Left = 24
+            Top = 2
+            Action = acFileNewAs
+          end
+          object ToolButton16: TToolButton
+            Left = 70
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton17: TToolButton
+            Left = 185
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton18: TToolButton
+            Left = 236
+            Top = 2
+            Action = acMainDivisor
+          end
+        end
+        object TreeviewToolBar: TToolBar
+          Left = 0
+          Height = 26
+          Top = 52
+          Width = 506
+          Caption = 'TreeviewToolBar'
+          Color = clBtnFace
+          Images = dmMainShared.MainImages
+          ParentColor = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 1
+          object tbToolsTreeviewExplore: TToolButton
+            Left = 1
+            Top = 2
+            Action = acToolsTreeviewExplore
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewExpand: TToolButton
+            Left = 24
+            Top = 2
+            Action = acToolsTreeviewExpand
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewCollapse: TToolButton
+            Left = 47
+            Top = 2
+            Action = acToolsTreeviewCollapse
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewEmpty: TToolButton
+            Left = 70
+            Top = 2
+            Action = acToolsTreeviewEmpty
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemDelete: TToolButton
+            Left = 139
+            Top = 2
+            Action = acToolsTreeviewItemDelete
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemProperties: TToolButton
+            Left = 162
+            Top = 2
+            Action = acToolsTreeviewItemProperties
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemSelectOn: TToolButton
+            Left = 277
+            Top = 2
+            Action = acToolsTreeviewItemSelectOn
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemSelectOff: TToolButton
+            Left = 300
+            Top = 2
+            Action = acToolsTreeviewItemSelectOff
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemInsertBefore: TToolButton
+            Left = 208
+            Top = 2
+            Action = acToolsTreeviewItemInsertBefore
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemInsertAfter: TToolButton
+            Left = 231
+            Top = 2
+            Action = acToolsTreeviewItemInsertAfter
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbToolsTreeviewItemInsertLast: TToolButton
+            Left = 116
+            Top = 2
+            Action = acToolsTreeviewItemInsertLast
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object ToolButton21: TToolButton
+            Left = 93
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton22: TToolButton
+            Left = 185
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton23: TToolButton
+            Left = 254
+            Top = 2
+            Action = acMainDivisor
+          end
+        end
+        object EditSearchToolBar: TToolBar
+          Left = 0
+          Height = 26
+          Top = 26
+          Width = 506
+          Caption = 'EditSearchToolBar'
+          Color = clBtnFace
+          Images = dmMainShared.MainImages
+          ParentColor = False
+          ParentShowHint = False
+          ShowHint = True
+          TabOrder = 2
+          object tbEditCut: TToolButton
+            Left = 1
+            Top = 2
+            Action = acEditCut
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbEditCopy: TToolButton
+            Left = 24
+            Top = 2
+            Action = acEditCopy
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbEditPaste: TToolButton
+            Left = 47
+            Top = 2
+            Action = acEditPaste
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbSearchFind: TToolButton
+            Left = 162
+            Top = 2
+            Action = acSearchFind
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbSearchFindAgain: TToolButton
+            Left = 185
+            Top = 2
+            Action = acSearchFindAgain
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbEditDuplicate: TToolButton
+            Left = 93
+            Top = 2
+            Action = acEditDuplicate
+          end
+          object tbEditClearClipboard: TToolButton
+            Left = 116
+            Top = 2
+            Action = acEditClearClipboard
+          end
+          object ToolButton19: TToolButton
+            Left = 70
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton20: TToolButton
+            Left = 139
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton28: TToolButton
+            Left = 208
+            Top = 2
+            Action = acMainDivisor
+          end
+          object tbSearchReplace: TToolButton
+            Left = 231
+            Top = 2
+            Action = acSearchReplace
+          end
+          object tbSearchReplaceAgain: TToolButton
+            Left = 254
+            Top = 2
+            Action = acSearchReplaceAgain
+          end
+        end
+        object QuickToolBar: TToolBar
+          Left = 0
+          Height = 26
+          Top = 104
+          Width = 506
+          Caption = 'QuickToolBar'
+          Color = clBtnFace
+          Images = dmMainShared.MainImages
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 3
+          object tbFileNewQK: TToolButton
+            Left = 1
+            Top = 2
+            Action = acFileNew
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acFileOpenQK: TToolButton
+            Left = 24
+            Top = 2
+            Action = acFileOpen
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acFileSaveQK: TToolButton
+            Left = 47
+            Top = 2
+            Action = acFileSave
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acEditCutQK: TToolButton
+            Left = 185
+            Top = 2
+            Action = acEditCut
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acEditCopyQK: TToolButton
+            Left = 208
+            Top = 2
+            Action = acEditCopy
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acEditPasteQK: TToolButton
+            Left = 231
+            Top = 2
+            Action = acEditPaste
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acEditUndoQK: TToolButton
+            Left = 116
+            Top = 2
+            Action = acEditUndo
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acEditRedoQK: TToolButton
+            Left = 139
+            Top = 2
+            Action = acEditRedo
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object ToolButton13: TToolButton
+            Left = 277
+            Top = 2
+            Action = acSearchFind
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object ToolButton14: TToolButton
+            Left = 300
+            Top = 2
+            Action = acSearchFindAgain
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acFileExitQK: TToolButton
+            Left = 392
+            Top = 2
+            Action = acFileExit
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object ToolButton24: TToolButton
+            Left = 93
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton25: TToolButton
+            Left = 162
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton26: TToolButton
+            Left = 254
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton27: TToolButton
+            Left = 369
+            Top = 2
+            Action = acMainDivisor
+          end
+          object tbSearchReplaceQK: TToolButton
+            Left = 323
+            Top = 2
+            Action = acSearchReplace
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object acSearchReplaceAgainQK: TToolButton
+            Left = 346
+            Top = 2
+            Action = acSearchReplaceAgain
+            OnMouseMove = AnyToolButtonMouseMove
+          end
+          object tbFileSaveAsQK: TToolButton
+            Left = 70
+            Top = 2
+            Action = acFileSaveAs
+          end
+        end
+        object TagsToolBar: TToolBar
+          Left = 0
+          Height = 26
+          Top = 78
+          Width = 506
+          Caption = 'TagsToolBar'
+          Color = clBtnFace
+          Images = dmMainShared.MainImages
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 4
+          object tbTagsNewBlockTag: TToolButton
+            Left = 1
+            Top = 2
+            Action = acTagsNewBlockTag
+          end
+          object tbTagsNewSingleTag: TToolButton
+            Left = 24
+            Top = 2
+            Action = acTagsNewSingleTag
+          end
+          object tbTagsNewCommentTag: TToolButton
+            Left = 70
+            Top = 2
+            Action = acTagsNewCommentTag
+          end
+          object tbTagsNewTextTag: TToolButton
+            Left = 116
+            Top = 2
+            Action = acTagsNewTextTag
+          end
+          object ToolButton29: TToolButton
+            Left = 47
+            Top = 2
+            Action = acMainDivisor
+          end
+          object ToolButton30: TToolButton
+            Left = 93
+            Top = 2
+            Action = acMainDivisor
+          end
+        end
+      end
+      object AddressPanel: TPanel
+        Left = 0
+        Height = 40
+        Top = 0
+        Width = 506
+        Align = alTop
+        BevelOuter = bvNone
+        ClientHeight = 40
+        ClientWidth = 506
+        Color = clBtnFace
+        ParentColor = False
+        TabOrder = 1
+        object AddressLabel: TLabel
+          Left = 8
+          Height = 14
+          Top = 11
+          Width = 73
+          Caption = '[AddressLabel]'
+          ParentColor = False
+        end
+        object AddressEdit: TEdit
+          Left = 80
+          Height = 21
+          Top = 8
+          Width = 418
+          Anchors = [akTop, akLeft, akRight]
+          Color = clGrayText
+          ReadOnly = True
+          TabOrder = 0
+        end
+      end
+    end
+    object ClientPanel: TPanel
+      Left = 0
+      Height = 190
+      Top = 176
+      Width = 506
+      Align = alClient
+      BevelOuter = bvNone
+      Caption = 'ClientPanel'
+      Color = clMedGray
+      ParentColor = False
+      ParentFont = False
+      TabOrder = 1
+    end
+  end
+  object MainMenuBar: TMainMenu
+    Images = dmMainShared.MainImages
+    left = 48
+    top = 296
+    object miMainFile: TMenuItem
+      Caption = '[miMainFile]'
+      object miFileNew: TMenuItem
+        Action = acFileNew
+        Caption = '[miFileNew]'
+      end
+      object miFileNewAs: TMenuItem
+        Action = acFileNewAs
+        Caption = '[miFileNewAs]'
+      end
+      object MenuItem5: TMenuItem
+        Caption = '-'
+      end
+      object miFileOpen: TMenuItem
+        Action = acFileOpen
+        Caption = '[miFileOpen]'
+      end
+      object MenuItem4: TMenuItem
+        Caption = '-'
+      end
+      object miFileSave: TMenuItem
+        Action = acFileSave
+        Caption = '[miFileSave]'
+      end
+      object miFileSaveAs: TMenuItem
+        Action = acFileSaveAs
+        Caption = '[miFileSaveAs]'
+      end
+      object miFileSavePreview: TMenuItem
+        Action = acFileSavePreview
+        Caption = '[miFileSavePreview]'
+      end
+      object MenuItem20: TMenuItem
+        Caption = '-'
+      end
+      object miFileSaveRename: TMenuItem
+        Action = acFileSaveRename
+        Caption = '[miFileSaveRename]'
+      end
+      object miFileSaveCopyAs: TMenuItem
+        Action = acFileSaveCopyAs
+        Caption = '[miFileSaveCopyAs]'
+      end
+      object MenuItem7: TMenuItem
+        Caption = '-'
+      end
+      object miFileProperties: TMenuItem
+        Action = acFileOptions
+        Caption = '[miFileProperties]'
+      end
+      object MenuItem3: TMenuItem
+        Caption = '-'
+      end
+      object miFileClose: TMenuItem
+        Action = acFileClose
+        Caption = '[miFileClose]'
+      end
+      object MenuItem10: TMenuItem
+        Caption = '-'
+        ImageIndex = 2
+      end
+      object miFileExit: TMenuItem
+        Action = acFileExit
+        Caption = '[miFileExit]'
+        OnClick = acFileExitExecute
+      end
+    end
+    object miMainEdit: TMenuItem
+      Caption = '[miMainEdit]'
+      object miEditUndo: TMenuItem
+        Action = acEditUndo
+      end
+      object miEditRedo: TMenuItem
+        Action = acEditRedo
+      end
+      object MenuItem11: TMenuItem
+        Caption = '-'
+      end
+      object miEditSelectAll: TMenuItem
+        Action = acEditSelectAll
+      end
+      object miEditSelectNone: TMenuItem
+        Action = acEditSelectNone
+      end
+      object MenuItem8: TMenuItem
+        Caption = '-'
+      end
+      object miEditCut: TMenuItem
+        Action = acEditCut
+      end
+      object miEditCopy: TMenuItem
+        Action = acEditCopy
+      end
+      object miEditPaste: TMenuItem
+        Action = acEditPaste
+      end
+      object miEditDuplicate: TMenuItem
+        Action = acEditDuplicate
+      end
+      object MenuItem19: TMenuItem
+        Caption = '-'
+      end
+      object miEditClearClipboard: TMenuItem
+        Action = acEditClearClipboard
+      end
+    end
+    object miMainSearch: TMenuItem
+      Caption = '[miMainSearch]'
+      object miSearchFind: TMenuItem
+        Action = acSearchFind
+      end
+      object MenuItem2: TMenuItem
+        Action = acSearchFindAgain
+      end
+      object MenuItem1: TMenuItem
+        Caption = '-'
+      end
+      object miSearchReplace: TMenuItem
+        Action = acSearchReplace
+      end
+      object miSearchReplaceAgain: TMenuItem
+        Action = acSearchReplaceAgain
+      end
+    end
+    object miMainView: TMenuItem
+      Caption = '[miMainView]'
+      object miViewToolBarsConfigure: TMenuItem
+        Action = acViewToolBarsConfigure
+      end
+      object MenuItem6: TMenuItem
+        Caption = '-'
+      end
+      object miViewToolBarQuick: TMenuItem
+        Action = acViewToogleToolBarQuick
+        Caption = 'View Quick ToolBar'
+      end
+      object miViewToolBarFile: TMenuItem
+        Action = acViewToggleToolBarFile
+      end
+      object miViewToolBarEditSearch: TMenuItem
+        Action = acViewToggleToolBarEditSearch
+      end
+      object miViewToolBarTreeview: TMenuItem
+        Action = acViewToggleToolBarTreeview
+      end
+      object MenuItem14: TMenuItem
+        Caption = '-'
+      end
+      object miViewFontSizeReduce: TMenuItem
+        Action = acViewFontSizeReduce
+      end
+      object miViewFontSizeIncrease: TMenuItem
+        Action = acViewFontSizeIncrease
+      end
+      object MenuItem9: TMenuItem
+        Caption = '-'
+      end
+      object miViewToggleAddressbar: TMenuItem
+        Action = acViewToggleAddressbar
+      end
+    end
+    object miMainTools: TMenuItem
+      Caption = '[miMainTools]'
+      object miToolsExportPreview: TMenuItem
+        Action = acToolsExportPreview
+      end
+    end
+    object miMainTreeview: TMenuItem
+      Caption = 'Treeview'
+      object miToolsTreeviewExplore: TMenuItem
+        Action = acToolsTreeviewExplore
+      end
+      object miToolsTreeviewExpand: TMenuItem
+        Action = acToolsTreeviewExpand
+      end
+      object miToolsTreeviewCollapse: TMenuItem
+        Action = acToolsTreeviewCollapse
+      end
+      object miToolsTreeviewEmpty: TMenuItem
+        Action = acToolsTreeviewEmpty
+      end
+      object MenuItem16: TMenuItem
+        Caption = '-'
+      end
+      object miToolsTreeviewItemSelectOff: TMenuItem
+        Action = acToolsTreeviewItemSelectOff
+      end
+      object miToolsTreeviewItemSelectOn: TMenuItem
+        Action = acToolsTreeviewItemSelectOn
+      end
+      object MenuItem12: TMenuItem
+        Caption = '-'
+      end
+      object miToolsTreeviewItemInsertLast: TMenuItem
+        Action = acToolsTreeviewItemInsertLast
+      end
+      object miToolsTreeviewItemDelete: TMenuItem
+        Action = acToolsTreeviewItemDelete
+      end
+      object miToolsTreeviewItemProperties: TMenuItem
+        Action = acToolsTreeviewItemProperties
+      end
+      object MenuItem21: TMenuItem
+        Caption = '-'
+      end
+      object miToolsTreeviewItemInsertBefore: TMenuItem
+        Action = acToolsTreeviewItemInsertBefore
+      end
+      object miToolsTreeviewItemInsertAfter: TMenuItem
+        Action = acToolsTreeviewItemInsertAfter
+      end
+    end
+    object miMainTags: TMenuItem
+      Caption = 'Tags'
+      object miTagsNewBlockTag: TMenuItem
+        Action = acTagsNewBlockTag
+      end
+      object miTagsNewSingleTag: TMenuItem
+        Action = acTagsNewSingleTag
+      end
+      object miTagsNewCommentTag: TMenuItem
+        Action = acTagsNewCommentTag
+      end
+      object miTagsNewTextTag: TMenuItem
+        Action = acTagsNewTextTag
+      end
+    end
+    object miMainHelp: TMenuItem
+      Caption = 'Help'
+      object miHelpAbout: TMenuItem
+        Action = acHelpAbout
+      end
+    end
+  end
+  object MainActionList: TActionList
+    Images = dmMainShared.MainImages
+    left = 144
+    top = 296
+    object acFileNew: TAction
+      Category = 'File'
+      Caption = 'New ...'
+      Hint = 'New ...'
+      ImageIndex = 1
+      OnExecute = acFileNewExecute
+    end
+    object acEditUndo: TAction
+      Category = 'Edit'
+      Caption = 'Undo'
+      Hint = 'Undo'
+      ImageIndex = 22
+      OnExecute = acEditUndoExecute
+    end
+    object acEditRedo: TAction
+      Category = 'Edit'
+      Caption = 'Redo'
+      Hint = 'Redo'
+      ImageIndex = 23
+      OnExecute = acEditRedoExecute
+    end
+    object acEditCut: TAction
+      Category = 'Edit'
+      Caption = 'Cut'
+      Hint = 'Cut'
+      ImageIndex = 9
+      OnExecute = acEditCutExecute
+    end
+    object acEditCopy: TAction
+      Category = 'Edit'
+      Caption = 'Copy'
+      Hint = 'Copy'
+      ImageIndex = 10
+      OnExecute = acEditCopyExecute
+    end
+    object acEditPaste: TAction
+      Category = 'Edit'
+      Caption = 'Paste'
+      Hint = 'Paste'
+      ImageIndex = 11
+      OnExecute = acEditPasteExecute
+    end
+    object acSearchFind: TAction
+      Category = 'Search'
+      Caption = 'Find ...'
+      Hint = 'Find ...'
+      ImageIndex = 24
+      OnExecute = acSearchFindExecute
+    end
+    object acViewToggleToolBars: TAction
+      Category = 'View'
+      Caption = 'Show ToolBars'
+      ImageIndex = 44
+      OnExecute = acViewToggleToolBarsExecute
+    end
+    object acToolsTreeviewExplore: TAction
+      Category = 'Treeview'
+      Caption = 'Explore Treeview'
+      Hint = 'Explore Treeview'
+      ImageIndex = 17
+      OnExecute = acToolsTreeviewExploreExecute
+    end
+    object acToolsTreeviewExpand: TAction
+      Category = 'Treeview'
+      Caption = 'Expand Treeview'
+      Hint = 'Expand Treeview'
+      ImageIndex = 18
+      OnExecute = acToolsTreeviewExpandExecute
+    end
+    object acToolsTreeviewCollapse: TAction
+      Category = 'Treeview'
+      Caption = 'Collapse Treeview'
+      Hint = 'Collapse Treeview'
+      ImageIndex = 19
+      OnExecute = acToolsTreeviewCollapseExecute
+    end
+    object acToolsTreeviewEmpty: TAction
+      Category = 'Treeview'
+      Caption = 'Empty Treeview'
+      Hint = 'Empty Treeview'
+      ImageIndex = 20
+      OnExecute = acToolsTreeviewEmptyExecute
+    end
+    object acToolsTreeviewItemDelete: TAction
+      Category = 'Treeview'
+      Caption = 'Delete Item from Treeview ...'
+      Hint = 'Delete Item from Treeview ...'
+      ImageIndex = 15
+      OnExecute = acToolsTreeviewItemDeleteExecute
+    end
+    object acToolsTreeviewItemProperties: TAction
+      Category = 'Treeview'
+      Caption = 'Edit Properties from Treeview Item...'
+      Hint = 'Edit Properties from Treeview Item...'
+      ImageIndex = 16
+      OnExecute = acToolsTreeviewItemPropertiesExecute
+    end
+    object acFileNewAs: TAction
+      Category = 'File'
+      Caption = 'New File with Template ...'
+      Hint = 'New File with Template ...'
+      ImageIndex = 2
+      OnExecute = acFileNewAsExecute
+    end
+    object acFileOpen: TAction
+      Category = 'File'
+      Caption = 'Open ...'
+      Hint = 'Open ...'
+      ImageIndex = 3
+      OnExecute = acFileOpenExecute
+    end
+    object acFileSave: TAction
+      Category = 'File'
+      Caption = 'Save ...'
+      Hint = 'Save ...'
+      ImageIndex = 4
+      OnExecute = acFileSaveExecute
+    end
+    object acFileSaveAs: TAction
+      Category = 'File'
+      Caption = 'Save As ...'
+      Hint = 'Save As ...'
+      ImageIndex = 5
+      OnExecute = acFileSaveAsExecute
+    end
+    object acFileSaveRename: TAction
+      Category = 'File'
+      Caption = 'Rename File As ...'
+      Hint = 'Rename File As ...'
+      ImageIndex = 6
+      OnExecute = acFileSaveRenameExecute
+    end
+    object acViewToogleMode: TAction
+      Category = 'View'
+      Caption = 'Toogle Mode'
+      Hint = 'Toogle Mode'
+      ImageIndex = 21
+      OnExecute = acViewToogleModeExecute
+    end
+    object acSearchFindAgain: TAction
+      Category = 'Search'
+      Caption = 'Find Again ...'
+      Hint = 'Find Again ...'
+      ImageIndex = 25
+      OnExecute = acSearchFindAgainExecute
+    end
+    object acSearchReplace: TAction
+      Category = 'Search'
+      Caption = 'Replace ...'
+      Hint = 'Replace ...'
+      ImageIndex = 26
+      OnExecute = acSearchReplaceExecute
+    end
+    object acSearchReplaceAgain: TAction
+      Category = 'Search'
+      Caption = 'Replace Again ...'
+      Hint = 'Replace Again ...'
+      ImageIndex = 27
+      OnExecute = acSearchReplaceAgainExecute
+    end
+    object acToolsTreeviewItemSelectOn: TAction
+      Category = 'Treeview'
+      Caption = 'Treeview Item Select On'
+      Hint = 'Treeview Item Select On'
+      ImageIndex = 28
+      OnExecute = acToolsTreeviewItemSelectOnExecute
+    end
+    object acToolsTreeviewItemSelectOff: TAction
+      Category = 'Treeview'
+      Caption = 'Treeview Item Select Off'
+      Hint = 'Treeview Item Select Off'
+      ImageIndex = 29
+      OnExecute = acToolsTreeviewItemSelectOffExecute
+    end
+    object acToolsTreeviewItemInsertLast: TAction
+      Category = 'Treeview'
+      Caption = 'Insert Last Item to Treeview ...'
+      Hint = 'Insert Last Item to Treeview ...'
+      ImageIndex = 34
+      OnExecute = acToolsTreeviewItemInsertLastExecute
+    end
+    object acToolsTreeviewItemInsertBefore: TAction
+      Category = 'Treeview'
+      Caption = 'Insert Item Before ...'
+      Hint = 'Insert Item Before ...'
+      ImageIndex = 35
+      OnExecute = acToolsTreeviewItemInsertBeforeExecute
+    end
+    object acToolsTreeviewItemInsertAfter: TAction
+      Category = 'Treeview'
+      Caption = 'Insert Item After ...'
+      Hint = 'Insert Item After ...'
+      ImageIndex = 36
+      OnExecute = acToolsTreeviewItemInsertAfterExecute
+    end
+    object acEditDuplicate: TAction
+      Category = 'Edit'
+      Caption = 'Paste Duplicate'
+      Hint = 'Paste Duplicate'
+      ImageIndex = 37
+      OnExecute = acEditDuplicateExecute
+    end
+    object acEditClearClipboard: TAction
+      Category = 'Edit'
+      Caption = 'Clear Clipboard'
+      Hint = 'Clear Clipboard'
+      ImageIndex = 38
+      OnExecute = acEditClearClipboardExecute
+    end
+    object acFileSaveCopyAs: TAction
+      Category = 'File'
+      Caption = 'Save a Copy As ...'
+      ImageIndex = 39
+      OnExecute = acFileSaveCopyAsExecute
+    end
+    object acFileClose: TAction
+      Category = 'File'
+      Caption = 'Close'
+      Hint = 'Close'
+      ImageIndex = 7
+      OnExecute = acFileCloseExecute
+    end
+    object acFileExit: TAction
+      Category = 'File'
+      Caption = 'Exit'
+      Hint = 'Exit'
+      ImageIndex = 8
+      OnExecute = acFileExitExecute
+    end
+    object acFileOptions: TAction
+      Category = 'File'
+      Caption = 'File &Options...'
+      Hint = 'File &Options...'
+      ImageIndex = 30
+      OnExecute = acFileOptionsExecute
+    end
+    object acFileSavePreview: TAction
+      Category = 'File'
+      Caption = 'Save Preview ...'
+      Hint = 'Save Preview ...'
+      ImageIndex = 33
+      OnExecute = acFileSavePreviewExecute
+    end
+    object acViewToogleToolBarQuick: TAction
+      Category = 'View'
+      Caption = 'acViewToolBarQuick'
+      OnExecute = acViewToogleToolBarQuickExecute
+    end
+    object acViewToggleToolBarFile: TAction
+      Category = 'View'
+      Caption = 'File ToolBar'
+      OnExecute = acViewToggleToolBarFileExecute
+    end
+    object acViewToggleToolBarEditSearch: TAction
+      Category = 'View'
+      Caption = 'EditSearch ToolBar'
+      OnExecute = acViewToggleToolBarEditSearchExecute
+    end
+    object acViewToggleToolBarTreeview: TAction
+      Category = 'View'
+      Caption = 'Treeview ToolBar'
+      OnExecute = acViewToggleToolBarTreeviewExecute
+    end
+    object acToolsExportPreview: TAction
+      Category = 'Tools'
+      Caption = 'Export Preview ...'
+      Hint = 'Export Preview ...'
+      ImageIndex = 31
+      OnExecute = acToolsExportPreviewExecute
+    end
+    object acViewToolBarsConfigure: TAction
+      Category = 'View'
+      Caption = 'Configure ToolBars...'
+      Hint = 'Configure ToolBars...'
+      ImageIndex = 32
+      OnExecute = acViewToolBarsConfigureExecute
+    end
+    object acMainDivisor: TAction
+      ImageIndex = 40
+    end
+    object acEditSelectAll: TAction
+      Category = 'Edit'
+      Caption = 'Select All'
+      ImageIndex = 41
+      OnExecute = acEditSelectAllExecute
+    end
+    object acEditSelectNone: TAction
+      Category = 'Edit'
+      Caption = 'Select None'
+      ImageIndex = 42
+      OnExecute = acEditSelectNoneExecute
+    end
+    object acViewToggleAddressbar: TAction
+      Category = 'View'
+      Caption = 'Toggle Addressbar'
+      ImageIndex = 43
+      OnExecute = acViewToggleAddressbarExecute
+    end
+    object acViewFontSizeIncrease: TAction
+      Category = 'View'
+      Caption = 'Increase Font Size'
+      ImageIndex = 45
+      OnExecute = acViewFontSizeIncreaseExecute
+    end
+    object acViewFontSizeReduce: TAction
+      Category = 'View'
+      Caption = 'Reduce Font Size'
+      ImageIndex = 46
+      OnExecute = acViewFontSizeReduceExecute
+    end
+    object acHelpAbout: TAction
+      Category = 'Help'
+      Caption = 'About ...'
+      ImageIndex = 47
+      OnExecute = acHelpAboutExecute
+    end
+    object acTagsNewBlockTag: TAction
+      Category = 'Tags'
+      Caption = 'New Block Tag ...'
+      ImageIndex = 48
+      OnExecute = acTagsNewBlockTagExecute
+    end
+    object acTagsNewSingleTag: TAction
+      Category = 'Tags'
+      Caption = 'New Single Tag ...'
+      ImageIndex = 49
+      OnExecute = acTagsNewSingleTagExecute
+    end
+    object acTagsNewCommentTag: TAction
+      Category = 'Tags'
+      Caption = 'New Comment Tag ...'
+      ImageIndex = 50
+      OnExecute = acTagsNewCommentTagExecute
+    end
+    object acTagsNewTextTag: TAction
+      Category = 'Tags'
+      Caption = 'New Text Tag ...'
+      ImageIndex = 51
+      OnExecute = acTagsNewTextTagExecute
+    end
+  end
+  object opdlgOpenDialog: TOpenDialog
+    left = 48
+    top = 240
+  end
+  object svdlgSaveDialog: TSaveDialog
+    left = 144
+    top = 240
+  end
+  object opdlgNewAsDialog: TOpenDialog
+    left = 48
+    top = 184
+  end
+end
