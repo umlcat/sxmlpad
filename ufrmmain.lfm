@@ -1,10 +1,10 @@
 object frmmain: Tfrmmain
-  Left = 184
+  Left = 300
   Height = 409
-  Top = 136
+  Top = 126
   Width = 506
   Caption = 'SimpleXML NotePad'
-  ClientHeight = 389
+  ClientHeight = 370
   ClientWidth = 506
   Menu = MainMenuBar
   OnCreate = FormCreate
@@ -16,19 +16,19 @@ object frmmain: Tfrmmain
   object MainStatusBar: TStatusBar
     Left = 0
     Height = 23
-    Top = 366
+    Top = 347
     Width = 506
     Panels = <>
   end
   object MainPanel: TPanel
     Left = 0
-    Height = 366
+    Height = 347
     Top = 0
     Width = 506
     Align = alClient
     BevelOuter = bvNone
     Caption = 'MainPanel'
-    ClientHeight = 366
+    ClientHeight = 347
     ClientWidth = 506
     Color = clGray
     ParentColor = False
@@ -165,67 +165,67 @@ object frmmain: Tfrmmain
           object tbToolsTreeviewExplore: TToolButton
             Left = 1
             Top = 2
-            Action = acToolsTreeviewExplore
+            Action = acTreeviewExplore
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewExpand: TToolButton
             Left = 24
             Top = 2
-            Action = acToolsTreeviewExpand
+            Action = acTreeviewExpand
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewCollapse: TToolButton
             Left = 47
             Top = 2
-            Action = acToolsTreeviewCollapse
+            Action = acTreeviewCollapse
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewEmpty: TToolButton
             Left = 70
             Top = 2
-            Action = acToolsTreeviewEmpty
+            Action = acTreeviewEmpty
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemDelete: TToolButton
             Left = 139
             Top = 2
-            Action = acToolsTreeviewItemDelete
+            Action = acTreeviewItemDelete
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemProperties: TToolButton
             Left = 162
             Top = 2
-            Action = acToolsTreeviewItemProperties
+            Action = acTreeviewItemProperties
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemSelectOn: TToolButton
             Left = 277
             Top = 2
-            Action = acToolsTreeviewItemSelectOn
+            Action = acTreeviewItemSelectOn
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemSelectOff: TToolButton
             Left = 300
             Top = 2
-            Action = acToolsTreeviewItemSelectOff
+            Action = acTreeviewItemSelectOff
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemInsertBefore: TToolButton
             Left = 208
             Top = 2
-            Action = acToolsTreeviewItemInsertBefore
+            Action = acTreeviewItemInsertBefore
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemInsertAfter: TToolButton
             Left = 231
             Top = 2
-            Action = acToolsTreeviewItemInsertAfter
+            Action = acTreeviewItemInsertAfter
             OnMouseMove = AnyToolButtonMouseMove
           end
           object tbToolsTreeviewItemInsertLast: TToolButton
             Left = 116
             Top = 2
-            Action = acToolsTreeviewItemInsertLast
+            Action = acTreeviewItemInsertLast
             OnMouseMove = AnyToolButtonMouseMove
           end
           object ToolButton21: TToolButton
@@ -514,7 +514,7 @@ object frmmain: Tfrmmain
     end
     object ClientPanel: TPanel
       Left = 0
-      Height = 190
+      Height = 171
       Top = 176
       Width = 506
       Align = alClient
@@ -601,166 +601,211 @@ object frmmain: Tfrmmain
       Caption = '[miMainEdit]'
       object miEditUndo: TMenuItem
         Action = acEditUndo
+        Caption = '[miEditUndo]'
       end
       object miEditRedo: TMenuItem
         Action = acEditRedo
+        Caption = '[miEditRedo]'
       end
       object MenuItem11: TMenuItem
         Caption = '-'
       end
       object miEditSelectAll: TMenuItem
         Action = acEditSelectAll
+        Caption = '[miEditSelectAll]'
       end
       object miEditSelectNone: TMenuItem
         Action = acEditSelectNone
+        Caption = '[miEditSelectNone]'
       end
       object MenuItem8: TMenuItem
         Caption = '-'
       end
       object miEditCut: TMenuItem
         Action = acEditCut
+        Caption = '[miEditCut]'
       end
       object miEditCopy: TMenuItem
         Action = acEditCopy
+        Caption = '[miEditCopy]'
       end
       object miEditPaste: TMenuItem
         Action = acEditPaste
+        Caption = '[miEditPaste]'
       end
       object miEditDuplicate: TMenuItem
         Action = acEditDuplicate
+        Caption = '[miEditDuplicate]'
       end
       object MenuItem19: TMenuItem
         Caption = '-'
       end
       object miEditClearClipboard: TMenuItem
         Action = acEditClearClipboard
+        Caption = '[miEditClearClipboard]'
       end
     end
     object miMainSearch: TMenuItem
       Caption = '[miMainSearch]'
       object miSearchFind: TMenuItem
         Action = acSearchFind
+        Caption = '[miSearchFind]'
       end
-      object MenuItem2: TMenuItem
+      object miSearchFindAgain: TMenuItem
         Action = acSearchFindAgain
+        Caption = '[miSearchFindAgain]'
       end
       object MenuItem1: TMenuItem
         Caption = '-'
       end
       object miSearchReplace: TMenuItem
         Action = acSearchReplace
+        Caption = '[miSearchReplace]'
       end
       object miSearchReplaceAgain: TMenuItem
         Action = acSearchReplaceAgain
+        Caption = '[miSearchReplaceAgain]'
       end
     end
     object miMainView: TMenuItem
       Caption = '[miMainView]'
       object miViewToolBarsConfigure: TMenuItem
         Action = acViewToolBarsConfigure
+        Caption = '[miViewToolBarsConfigure]'
       end
       object MenuItem6: TMenuItem
         Caption = '-'
       end
       object miViewToolBarQuick: TMenuItem
         Action = acViewToogleToolBarQuick
-        Caption = 'View Quick ToolBar'
+        Caption = '[miViewToolBarQuick]'
       end
       object miViewToolBarFile: TMenuItem
         Action = acViewToggleToolBarFile
+        Caption = '[miViewToolBarFile]'
       end
       object miViewToolBarEditSearch: TMenuItem
         Action = acViewToggleToolBarEditSearch
+        Caption = '[miViewToolBarEditSearch]'
       end
       object miViewToolBarTreeview: TMenuItem
         Action = acViewToggleToolBarTreeview
+        Caption = '[miViewToolBarTreeview]'
       end
       object MenuItem14: TMenuItem
         Caption = '-'
       end
       object miViewFontSizeReduce: TMenuItem
         Action = acViewFontSizeReduce
+        Caption = '[miViewFontSizeReduce]'
       end
       object miViewFontSizeIncrease: TMenuItem
         Action = acViewFontSizeIncrease
+        Caption = '[miViewFontSizeIncrease]'
       end
       object MenuItem9: TMenuItem
         Caption = '-'
       end
       object miViewToggleAddressbar: TMenuItem
         Action = acViewToggleAddressbar
+        Caption = '[miViewToggleAddressbar]'
       end
     end
     object miMainTools: TMenuItem
       Caption = '[miMainTools]'
+      object miToolsConfigureTools: TMenuItem
+        Action = acToolsConfigureTools
+        Caption = '[miToolsConfigureTools]'
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
       object miToolsExportPreview: TMenuItem
         Action = acToolsExportPreview
+        Caption = '[miToolsExportPreview]'
       end
     end
     object miMainTreeview: TMenuItem
-      Caption = 'Treeview'
-      object miToolsTreeviewExplore: TMenuItem
-        Action = acToolsTreeviewExplore
+      Caption = '[miMainTreeview]'
+      object miTreeviewExplore: TMenuItem
+        Action = acTreeviewExplore
+        Caption = '[miTreeviewExplore]'
+        OnClick = acTreeviewExploreExecute
       end
-      object miToolsTreeviewExpand: TMenuItem
-        Action = acToolsTreeviewExpand
+      object miTreeviewExpand: TMenuItem
+        Action = acTreeviewExpand
+        Caption = '[miTreeviewExpand]'
       end
-      object miToolsTreeviewCollapse: TMenuItem
-        Action = acToolsTreeviewCollapse
+      object miTreeviewCollapse: TMenuItem
+        Action = acTreeviewCollapse
+        Caption = '[miTreeviewCollapse]'
       end
-      object miToolsTreeviewEmpty: TMenuItem
-        Action = acToolsTreeviewEmpty
+      object miTreeviewEmpty: TMenuItem
+        Action = acTreeviewEmpty
+        Caption = '[miTreeviewEmpty]'
       end
       object MenuItem16: TMenuItem
         Caption = '-'
       end
-      object miToolsTreeviewItemSelectOff: TMenuItem
-        Action = acToolsTreeviewItemSelectOff
+      object miTreeviewItemSelectOff: TMenuItem
+        Action = acTreeviewItemSelectOff
+        Caption = '[miTreeviewItemSelectOff]'
       end
-      object miToolsTreeviewItemSelectOn: TMenuItem
-        Action = acToolsTreeviewItemSelectOn
+      object miTreeviewItemSelectOn: TMenuItem
+        Action = acTreeviewItemSelectOn
+        Caption = '[miTreeviewItemSelectOn]'
       end
       object MenuItem12: TMenuItem
         Caption = '-'
       end
-      object miToolsTreeviewItemInsertLast: TMenuItem
-        Action = acToolsTreeviewItemInsertLast
+      object miTreeviewItemInsertLast: TMenuItem
+        Action = acTreeviewItemInsertLast
+        Caption = '[miTreeviewItemInsertLast]'
       end
-      object miToolsTreeviewItemDelete: TMenuItem
-        Action = acToolsTreeviewItemDelete
+      object miTreeviewItemDelete: TMenuItem
+        Action = acTreeviewItemDelete
+        Caption = '[miTreeviewItemDelete]'
       end
-      object miToolsTreeviewItemProperties: TMenuItem
-        Action = acToolsTreeviewItemProperties
+      object miTreeviewItemProperties: TMenuItem
+        Action = acTreeviewItemProperties
+        Caption = '[miTreeviewItemProperties]'
       end
       object MenuItem21: TMenuItem
         Caption = '-'
       end
-      object miToolsTreeviewItemInsertBefore: TMenuItem
-        Action = acToolsTreeviewItemInsertBefore
+      object miTreeviewItemInsertBefore: TMenuItem
+        Action = acTreeviewItemInsertBefore
+        Caption = '[miTreeviewItemInsertBefore]'
       end
-      object miToolsTreeviewItemInsertAfter: TMenuItem
-        Action = acToolsTreeviewItemInsertAfter
+      object miTreeviewItemInsertAfter: TMenuItem
+        Action = acTreeviewItemInsertAfter
+        Caption = '[miTreeviewItemInsertAfter]'
       end
     end
     object miMainTags: TMenuItem
-      Caption = 'Tags'
+      Caption = '[miMainTags]'
       object miTagsNewBlockTag: TMenuItem
         Action = acTagsNewBlockTag
+        Caption = '[miTagsNewBlockTag]'
       end
       object miTagsNewSingleTag: TMenuItem
         Action = acTagsNewSingleTag
+        Caption = '[miTagsNewSingleTag]'
       end
       object miTagsNewCommentTag: TMenuItem
         Action = acTagsNewCommentTag
+        Caption = '[miTagsNewCommentTag]'
       end
       object miTagsNewTextTag: TMenuItem
         Action = acTagsNewTextTag
+        Caption = '[miTagsNewTextTag]'
       end
     end
     object miMainHelp: TMenuItem
-      Caption = 'Help'
+      Caption = '[miMainHelp]'
       object miHelpAbout: TMenuItem
         Action = acHelpAbout
+        Caption = '[miHelpAbout]'
       end
     end
   end
@@ -823,47 +868,47 @@ object frmmain: Tfrmmain
       ImageIndex = 44
       OnExecute = acViewToggleToolBarsExecute
     end
-    object acToolsTreeviewExplore: TAction
+    object acTreeviewExplore: TAction
       Category = 'Treeview'
       Caption = 'Explore Treeview'
       Hint = 'Explore Treeview'
       ImageIndex = 17
-      OnExecute = acToolsTreeviewExploreExecute
+      OnExecute = acTreeviewExploreExecute
     end
-    object acToolsTreeviewExpand: TAction
+    object acTreeviewExpand: TAction
       Category = 'Treeview'
       Caption = 'Expand Treeview'
       Hint = 'Expand Treeview'
       ImageIndex = 18
-      OnExecute = acToolsTreeviewExpandExecute
+      OnExecute = acTreeviewExpandExecute
     end
-    object acToolsTreeviewCollapse: TAction
+    object acTreeviewCollapse: TAction
       Category = 'Treeview'
       Caption = 'Collapse Treeview'
       Hint = 'Collapse Treeview'
       ImageIndex = 19
-      OnExecute = acToolsTreeviewCollapseExecute
+      OnExecute = acTreeviewCollapseExecute
     end
-    object acToolsTreeviewEmpty: TAction
+    object acTreeviewEmpty: TAction
       Category = 'Treeview'
       Caption = 'Empty Treeview'
       Hint = 'Empty Treeview'
       ImageIndex = 20
-      OnExecute = acToolsTreeviewEmptyExecute
+      OnExecute = acTreeviewEmptyExecute
     end
-    object acToolsTreeviewItemDelete: TAction
+    object acTreeviewItemDelete: TAction
       Category = 'Treeview'
       Caption = 'Delete Item from Treeview ...'
       Hint = 'Delete Item from Treeview ...'
       ImageIndex = 15
-      OnExecute = acToolsTreeviewItemDeleteExecute
+      OnExecute = acTreeviewItemDeleteExecute
     end
-    object acToolsTreeviewItemProperties: TAction
+    object acTreeviewItemProperties: TAction
       Category = 'Treeview'
       Caption = 'Edit Properties from Treeview Item...'
       Hint = 'Edit Properties from Treeview Item...'
       ImageIndex = 16
-      OnExecute = acToolsTreeviewItemPropertiesExecute
+      OnExecute = acTreeviewItemPropertiesExecute
     end
     object acFileNewAs: TAction
       Category = 'File'
@@ -928,40 +973,40 @@ object frmmain: Tfrmmain
       ImageIndex = 27
       OnExecute = acSearchReplaceAgainExecute
     end
-    object acToolsTreeviewItemSelectOn: TAction
+    object acTreeviewItemSelectOn: TAction
       Category = 'Treeview'
       Caption = 'Treeview Item Select On'
       Hint = 'Treeview Item Select On'
       ImageIndex = 28
-      OnExecute = acToolsTreeviewItemSelectOnExecute
+      OnExecute = acTreeviewItemSelectOnExecute
     end
-    object acToolsTreeviewItemSelectOff: TAction
+    object acTreeviewItemSelectOff: TAction
       Category = 'Treeview'
       Caption = 'Treeview Item Select Off'
       Hint = 'Treeview Item Select Off'
       ImageIndex = 29
-      OnExecute = acToolsTreeviewItemSelectOffExecute
+      OnExecute = acTreeviewItemSelectOffExecute
     end
-    object acToolsTreeviewItemInsertLast: TAction
+    object acTreeviewItemInsertLast: TAction
       Category = 'Treeview'
       Caption = 'Insert Last Item to Treeview ...'
       Hint = 'Insert Last Item to Treeview ...'
       ImageIndex = 34
-      OnExecute = acToolsTreeviewItemInsertLastExecute
+      OnExecute = acTreeviewItemInsertLastExecute
     end
-    object acToolsTreeviewItemInsertBefore: TAction
+    object acTreeviewItemInsertBefore: TAction
       Category = 'Treeview'
       Caption = 'Insert Item Before ...'
       Hint = 'Insert Item Before ...'
       ImageIndex = 35
-      OnExecute = acToolsTreeviewItemInsertBeforeExecute
+      OnExecute = acTreeviewItemInsertBeforeExecute
     end
-    object acToolsTreeviewItemInsertAfter: TAction
+    object acTreeviewItemInsertAfter: TAction
       Category = 'Treeview'
       Caption = 'Insert Item After ...'
       Hint = 'Insert Item After ...'
       ImageIndex = 36
-      OnExecute = acToolsTreeviewItemInsertAfterExecute
+      OnExecute = acTreeviewItemInsertAfterExecute
     end
     object acEditDuplicate: TAction
       Category = 'Edit'
@@ -1107,6 +1152,11 @@ object frmmain: Tfrmmain
       Caption = 'New Text Tag ...'
       ImageIndex = 51
       OnExecute = acTagsNewTextTagExecute
+    end
+    object acToolsConfigureTools: TAction
+      Category = 'Tools'
+      Caption = '[acToolsConfigureTools]'
+      OnExecute = acToolsConfigureToolsExecute
     end
   end
   object opdlgOpenDialog: TOpenDialog

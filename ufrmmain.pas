@@ -78,27 +78,28 @@ type
     acTagsNewSingleTag: TAction;
     acTagsNewCommentTag: TAction;
     acTagsNewTextTag: TAction;
+    acToolsConfigureTools: TAction;
     acViewFontSizeReduce: TAction;
     acViewFontSizeIncrease: TAction;
     acViewToggleAddressbar: TAction;
     acViewToogleToolBarQuick: TAction;
-    acToolsTreeviewItemInsertAfter: TAction;
-    acToolsTreeviewItemInsertBefore: TAction;
-    acToolsTreeviewItemInsertLast: TAction;
+    acTreeviewItemInsertAfter: TAction;
+    acTreeviewItemInsertBefore: TAction;
+    acTreeviewItemInsertLast: TAction;
     acViewToolBarsConfigure: TAction;
     acToolsExportPreview: TAction;
     acViewToggleToolBarEditSearch: TAction;
     acViewToggleToolBarTreeview: TAction;
     acViewToggleToolBarFile: TAction;
-    acToolsTreeviewItemSelectOff: TAction;
-    acToolsTreeviewItemSelectOn: TAction;
+    acTreeviewItemSelectOff: TAction;
+    acTreeviewItemSelectOn: TAction;
     acViewToogleMode: TAction;
-    acToolsTreeviewCollapse: TAction;
-    acToolsTreeviewEmpty: TAction;
-    acToolsTreeviewExpand: TAction;
-    acToolsTreeviewExplore: TAction;
-    acToolsTreeviewItemDelete: TAction;
-    acToolsTreeviewItemProperties: TAction;
+    acTreeviewCollapse: TAction;
+    acTreeviewEmpty: TAction;
+    acTreeviewExpand: TAction;
+    acTreeviewExplore: TAction;
+    acTreeviewItemDelete: TAction;
+    acTreeviewItemProperties: TAction;
     acViewToggleToolBars: TAction;
     AddressEdit: TEdit;
     FileExitToolButton: TToolButton;
@@ -109,6 +110,8 @@ type
     MainMenuBar: TMainMenu;
     ClientPanel: TPanel;
     MenuItem12: TMenuItem;
+    miToolsConfigureTools: TMenuItem;
+    MenuItem2: TMenuItem;
     miTagsNewTextTag: TMenuItem;
     miTagsNewCommentTag: TMenuItem;
     miTagsNewSingleTag: TMenuItem;
@@ -123,20 +126,20 @@ type
     miViewToggleAddressbar: TMenuItem;
     miEditSelectNone: TMenuItem;
     miEditSelectAll: TMenuItem;
-    miToolsTreeviewItemInsertAfter: TMenuItem;
-    miToolsTreeviewItemProperties: TMenuItem;
-    miToolsTreeviewItemInsertBefore: TMenuItem;
-    miToolsTreeviewItemInsertLast: TMenuItem;
-    miToolsTreeviewItemDelete: TMenuItem;
+    miTreeviewItemInsertAfter: TMenuItem;
+    miTreeviewItemProperties: TMenuItem;
+    miTreeviewItemInsertBefore: TMenuItem;
+    miTreeviewItemInsertLast: TMenuItem;
+    miTreeviewItemDelete: TMenuItem;
     MenuItem21: TMenuItem;
-    miToolsTreeviewItemSelectOn: TMenuItem;
-    miToolsTreeviewItemSelectOff: TMenuItem;
+    miTreeviewItemSelectOn: TMenuItem;
+    miTreeviewItemSelectOff: TMenuItem;
     MenuItem14: TMenuItem;
     MenuItem16: TMenuItem;
-    miToolsTreeviewCollapse: TMenuItem;
-    miToolsTreeviewEmpty: TMenuItem;
-    miToolsTreeviewExpand: TMenuItem;
-    miToolsTreeviewExplore: TMenuItem;
+    miTreeviewCollapse: TMenuItem;
+    miTreeviewEmpty: TMenuItem;
+    miTreeviewExpand: TMenuItem;
+    miTreeviewExplore: TMenuItem;
     miMainTreeview: TMenuItem;
     MenuItem6: TMenuItem;
     miViewToolBarQuick: TMenuItem;
@@ -154,7 +157,7 @@ type
     MenuItem3: TMenuItem;
     miFileProperties: TMenuItem;
     MenuItem1: TMenuItem;
-    MenuItem2: TMenuItem;
+    miSearchFindAgain: TMenuItem;
     miSearchReplaceAgain: TMenuItem;
     miFileNewAs: TMenuItem;
     miFileSaveRename: TMenuItem;
@@ -284,18 +287,19 @@ type
     procedure acTagsNewCommentTagExecute(Sender: TObject);
     procedure acTagsNewSingleTagExecute(Sender: TObject);
     procedure acTagsNewTextTagExecute(Sender: TObject);
+    procedure acToolsConfigureToolsExecute(Sender: TObject);
     procedure acToolsExportPreviewExecute(Sender: TObject);
-    procedure acToolsTreeviewCollapseExecute(Sender: TObject);
-    procedure acToolsTreeviewEmptyExecute(Sender: TObject);
-    procedure acToolsTreeviewExpandExecute(Sender: TObject);
-    procedure acToolsTreeviewExploreExecute(Sender: TObject);
-    procedure acToolsTreeviewItemDeleteExecute(Sender: TObject);
-    procedure acToolsTreeviewItemInsertAfterExecute(Sender: TObject);
-    procedure acToolsTreeviewItemInsertBeforeExecute(Sender: TObject);
-    procedure acToolsTreeviewItemInsertLastExecute(Sender: TObject);
-    procedure acToolsTreeviewItemPropertiesExecute(Sender: TObject);
-    procedure acToolsTreeviewItemSelectOffExecute(Sender: TObject);
-    procedure acToolsTreeviewItemSelectOnExecute(Sender: TObject);
+    procedure acTreeviewCollapseExecute(Sender: TObject);
+    procedure acTreeviewEmptyExecute(Sender: TObject);
+    procedure acTreeviewExpandExecute(Sender: TObject);
+    procedure acTreeviewExploreExecute(Sender: TObject);
+    procedure acTreeviewItemDeleteExecute(Sender: TObject);
+    procedure acTreeviewItemInsertAfterExecute(Sender: TObject);
+    procedure acTreeviewItemInsertBeforeExecute(Sender: TObject);
+    procedure acTreeviewItemInsertLastExecute(Sender: TObject);
+    procedure acTreeviewItemPropertiesExecute(Sender: TObject);
+    procedure acTreeviewItemSelectOffExecute(Sender: TObject);
+    procedure acTreeviewItemSelectOnExecute(Sender: TObject);
     procedure acViewFontSizeIncreaseExecute(Sender: TObject);
     procedure acViewFontSizeReduceExecute(Sender: TObject);
     procedure acViewToggleAddressbarExecute(Sender: TObject);
@@ -852,6 +856,11 @@ begin
   end;
 end;
 
+procedure Tfrmmain.acToolsConfigureToolsExecute(Sender: TObject);
+begin
+  //
+end;
+
 function Tfrmmain.NewNode
   (var AParentNode: TUKTSXMLTreeNode): TUKTSXMLTreeNode;
 begin
@@ -1160,7 +1169,7 @@ begin
   uktmsgdlgsmemos.ShowMessage(AText);
 end;
 
-procedure Tfrmmain.acToolsTreeviewCollapseExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewCollapseExecute(Sender: TObject);
 var ANode: TUKTPanelTreeviewNode;
 begin
   ANode := (Self.MainTreeview.FocusedNode as TUKTPanelTreeviewNode);
@@ -1170,7 +1179,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewEmptyExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewEmptyExecute(Sender: TObject);
 var ANode: TUKTPanelTreeviewNode;
 begin
   ANode := (Self.MainTreeview.FocusedNode as TUKTPanelTreeviewNode);
@@ -1180,7 +1189,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewExpandExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewExpandExecute(Sender: TObject);
 var ANode: TUKTPanelTreeviewNode;
 begin
   ANode := (Self.MainTreeview.FocusedNode as TUKTPanelTreeviewNode);
@@ -1190,7 +1199,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewExploreExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewExploreExecute(Sender: TObject);
 var ANode: TUKTPanelTreeviewNode;
 begin
   ANode := (Self.MainTreeview.FocusedNode as TUKTPanelTreeviewNode);
@@ -1779,7 +1788,7 @@ begin
   AOptions.Free();
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemDeleteExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemDeleteExecute(Sender: TObject);
 var ATreeviewNode: TUKTMsgPanelTreeviewNode;
     AContainerNode: TUKTSXMLTreeNode;
 begin
@@ -1805,7 +1814,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemInsertAfterExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemInsertAfterExecute(Sender: TObject);
 var ATreeviewParentNode: TUKTMsgPanelTreeViewNode;
 var ATreeviewNode: TUKTMsgPanelTreeViewNode;
 var AContainerParentNode: TUKTSXMLTreeNode;
@@ -1845,7 +1854,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemInsertBeforeExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemInsertBeforeExecute(Sender: TObject);
 var ATreeviewParentNode: TUKTMsgPanelTreeViewNode;
 var ATreeviewNode: TUKTMsgPanelTreeViewNode;
 var AContainerParentNode: TUKTSXMLTreeNode;
@@ -1885,7 +1894,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemInsertLastExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemInsertLastExecute(Sender: TObject);
 var ATreeviewParentNode: TUKTMsgPanelTreeViewNode;
     AContainerParentNode: TUKTSXMLTreeNode;
     CanAdd: Boolean;
@@ -1912,7 +1921,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemPropertiesExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemPropertiesExecute(Sender: TObject);
 var ATreeviewNode: TUKTMsgPanelTreeviewNode;
     AContainerNode: TUKTSXMLTreeNode;
 begin
@@ -1936,7 +1945,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemSelectOffExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemSelectOffExecute(Sender: TObject);
 var ATreeviewNode: TUKTMsgPanelTreeViewNode;
     AContainerNode: TUKTSXMLTreeNode;
 begin
@@ -1956,7 +1965,7 @@ begin
   end;
 end;
 
-procedure Tfrmmain.acToolsTreeviewItemSelectOnExecute(Sender: TObject);
+procedure Tfrmmain.acTreeviewItemSelectOnExecute(Sender: TObject);
 var ATreeviewNode: TUKTMsgPanelTreeViewNode;
     AContainerNode: TUKTSXMLTreeNode;
 begin
@@ -2046,7 +2055,8 @@ begin
   ResizeTopPanel();
 end;
 
-procedure Tfrmmain.AnyToolButtonMouseMove(Sender: TObject; Shift: TShiftState;
+procedure Tfrmmain.AnyToolButtonMouseMove
+  (Sender: TObject; Shift: TShiftState;
   X, Y: Integer);
 begin
   Self.MainStatusBar.SimpleText:= (Sender as TToolButton).Hint;
@@ -2431,6 +2441,60 @@ begin
   miFileProperties.Hint  := resmiFileProperties_Hint;
   miFileClose.Hint       := resmiFileClose_Hint;
   miFileExit.Hint        := resmiFileExit_Hint;
+
+  // --> menu bar*s "edit" menu captions:
+  miEditUndo.Caption           := resmiEditUndo_Caption;
+  miEditRedo.Caption           := resmiEditRedo_Caption;
+  miEditSelectAll.Caption      := resmiEditSelectAll_Caption;
+  miEditSelectNone.Caption     := resmiEditSelectNone_Caption;
+  miEditCut.Caption            := resmiEditCut_Caption;
+  miEditCopy.Caption           := resmiEditCopy_Caption;
+  miEditPaste.Caption          := resmiEditPaste_Caption;
+  miEditDuplicate.Caption      := resmiEditDuplicate_Caption;
+  miEditClearClipboard.Caption := resmiEditClearClipboard_Caption;
+
+  // --> menu bar*s "search" menu captions:
+  miSearchFind.Caption         := resmiSearchFind_Caption;
+  miSearchFindAgain.Caption    := resmiSearchFindAgain_Caption;
+  miSearchReplace.Caption      := resmiSearchReplace_Caption;
+  miSearchReplaceAgain.Caption := resmiSearchReplaceAgain_Caption;
+
+  // --> menu bar*s "view" menu captions:
+  miViewToolBarsConfigure.Caption := resmiViewToolBarsConfigure_Caption;
+  miViewToolBarQuick.Caption      := resmiViewToolBarQuick_Caption;
+  miViewToolBarFile.Caption       := resmiViewToolBarFile_Caption;
+  miViewToolBarEditSearch.Caption := resmiViewToolBarEditSearch_Caption;
+  miViewToolBarTreeview.Caption   := resmiViewToolBarTreeview_Caption;
+  miViewFontSizeReduce.Caption    := resmiViewFontSizeReduce_Caption;
+  miViewFontSizeIncrease.Caption  := resmiViewFontSizeIncrease_Caption;
+  miViewToggleAddressbar.Caption  := resmiViewToggleAddressbar_Caption;
+
+  // --> menu bar*s "tools" menu captions:
+  miToolsConfigureTools.Caption := resmiToolsConfigureTools_Caption;
+  miToolsExportPreview.Caption  := resmiToolsExportPreview_Caption;
+
+  // --> menu bar*s "treeview" menu captions:
+  miTreeviewExplore.Caption          := resmiTreeviewExplore_Caption;
+  miTreeviewExpand.Caption           := resmiTreeviewExpand_Caption;
+  miTreeviewCollapse.Caption         := resmiTreeviewCollapse_Caption;
+  miTreeviewEmpty.Caption            := resmiTreeviewEmpty_Caption;
+  miTreeviewItemSelectOff.Caption    := resmiTreeviewItemSelectOff_Caption;
+  miTreeviewItemSelectOn.Caption     := resmiTreeviewItemSelectOn_Caption;
+  miTreeviewItemInsertLast.Caption   := resmiTreeviewItemInsertLast_Caption;
+  miTreeviewItemDelete.Caption       := resmiTreeviewItemDelete_Caption;
+  miTreeviewItemProperties.Caption   := resmiTreeviewItemProperties_Caption;
+  miTreeviewItemInsertBefore.Caption := resmiTreeviewItemInsertBefore_Caption;
+  miTreeviewItemInsertAfter.Caption  := resmiTreeviewItemInsertAfter_Caption;
+
+  // --> menu bar*s "tags" menu captions:
+  miTagsNewBlockTag.Caption          := resmiTagsNewBlockTag_Caption;
+  miTagsNewSingleTag.Caption         := resmiTagsNewSingleTag_Caption;
+  miTagsNewCommentTag.Caption        := resmiTagsNewCommentTag_Caption;
+  miTagsNewTextTag.Caption           := resmiTagsNewTextTag_Caption;
+
+  // --> menu bar*s "properties" menu captions:
+  miHelpAbout.Caption    := resmiHelpAbout_Caption;
+
 end;
 
 procedure Tfrmmain.PrepareResourcesOther();

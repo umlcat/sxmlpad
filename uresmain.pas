@@ -49,6 +49,59 @@ resourcestring
   resmiFileClose_Hint       = 'Close';
   resmiFileExit_Hint        = 'Exit';
 
+  // --> menu bar*s "edit" menu captions:
+  resmiEditUndo_Caption           = 'Undo';
+  resmiEditRedo_Caption           = 'Redo';
+  resmiEditSelectAll_Caption      = 'Select All';
+  resmiEditSelectNone_Caption     = 'Cancel Selection';
+  resmiEditCut_Caption            = 'Cut';
+  resmiEditCopy_Caption           = 'Copy';
+  resmiEditPaste_Caption          = 'Paste';
+  resmiEditDuplicate_Caption      = 'Paste Duplicate';
+  resmiEditClearClipboard_Caption = 'Clear Clipboard';
+
+  // --> menu bar*s "search" menu captions:
+  miSearchFind.Caption         := resmiSearchFind_Caption;
+  miSearchFindAgain.Caption    := resmiSearchFindAgain_Caption;
+  miSearchReplace.Caption      := resmiSearchReplace_Caption;
+  miSearchReplaceAgain.Caption := resmiSearchReplaceAgain_Caption;
+
+  // --> menu bar*s "view" menu captions:
+  resmiViewToolBarsConfigure_Caption = 'Configure ToolBars...';
+  resmiViewToolBarQuick_Caption      = 'Toggle Quick ToolBar';
+  resmiViewToolBarFile_Caption       = 'Toggle File ToolBar';
+  resmiViewToolBarEditSearch_Caption = 'Toggle EditSearch ToolBar';
+  resmiViewToolBarTreeview_Caption   = 'Toogle Treeview ToolBar';
+  resmiViewFontSizeReduce_Caption    = 'Reduce Font Size';
+  resmiViewFontSizeIncrease_Caption  = 'Increase Font Size';
+  resmiViewToggleAddressbar_Caption  = 'Toggle Addressbar';
+
+  // --> menu bar*s "tools" menu captions:
+  resmiToolsConfigureTools_Caption = 'Configure Tools ...';
+  resmiToolsExportPreview_Caption  = 'Export Preview ...';
+
+  // --> menu bar*s "treeview" menu captions:
+  resmiTreeviewExplore_Caption          = 'Explore Treeview';
+  resmiTreeviewExpand_Caption           = 'Expand Treeview';
+  resmiTreeviewCollapse_Caption         = 'Collapse Treeview';
+  resmiTreeviewEmpty_Caption            = 'Empty Treeview';
+  resmiTreeviewItemSelectOff_Caption    = 'Treeview Item Select Off';
+  resmiTreeviewItemSelectOn_Caption     = 'Treeview Item Select On';
+  resmiTreeviewItemInsertLast_Caption   = 'Insert Last Item to Treeview ...';
+  resmiTreeviewItemDelete_Caption       = 'Delete Item from Treeview ...';
+  resmiTreeviewItemProperties_Caption   = 'Edit Properties from Treeview Item...';
+  resmiTreeviewItemInsertBefore_Caption = 'Insert Item Before ...';
+  resmiTreeviewItemInsertAfter_Caption  = 'Insert Item After ...';
+
+  // --> menu bar*s "tags" menu captions:
+  resmiTagsNewBlockTag_Caption          = 'New Block Tag...';
+  resmiTagsNewSingleTag_Caption         = 'New Single Tag...';
+  resmiTagsNewCommentTag_Caption        = 'New Comment Tag...';
+  resmiTagsNewTextTag_Caption           = 'New Text Tag...';
+
+  // --> menu bar*s "help" menu captions:
+  resmiHelpAbout_Caption       = 'About ...';
+
   resAddressLabel_Caption  = 'Path:';
 
   resCannotRemoveNode = 'Cannot remove this node';
@@ -107,8 +160,6 @@ resourcestring
   resmiFileClose_Caption       = 'Cerrar';
   resmiFileExit_Caption        = 'Salir';
 
-
-
   // --> menu bar*s file hints:
   resmiFileNew_Hint         = 'Nuevo ...';
   resmiFileNewAs_Hint       = 'Nuevo con Plantilla ...';
@@ -121,6 +172,59 @@ resourcestring
   resmiFileProperties_Hint  = '&Propiedades de Fichero...';
   resmiFileClose_Hint       = 'Cerrar';
   resmiFileExit_Hint        = 'Salir';
+
+  // --> menu bar*s "edit" menu captions:
+  resmiEditUndo_Caption           = 'Deshacer';
+  resmiEditRedo_Caption           = 'Rehacer';
+  resmiEditSelectAll_Caption      = 'Seleccionar Todo';
+  resmiEditSelectNone_Caption     = 'Cancelar Seleccion';
+  resmiEditCut_Caption            = 'Cortar';
+  resmiEditCopy_Caption           = 'Copiar';
+  resmiEditPaste_Caption          = 'Pegar';
+  resmiEditDuplicate_Caption      = 'Pegar Duplicado';
+  resmiEditClearClipboard_Caption = 'Limpiar Portapapeles';
+
+  // --> menu bar*s "search" menu captions:
+  resmiSearchFind_Caption         = 'Buscar ...';
+  resmiSearchFindAgain_Caption    = 'Buscar de nuevo ...';
+  resmiSearchReplace_Caption      = 'Reemplazar ...';
+  resmiSearchReplaceAgain_Caption = 'Reemplazar de nuevo ...';
+
+  // --> menu bar*s "view" menu captions:
+  resmiViewToolBarsConfigure_Caption = 'Configurar Barras Herramientas...';
+  resmiViewToolBarQuick_Caption      = 'Mostrar/Ocultar Barra Rapida';
+  resmiViewToolBarFile_Caption       = 'Mostrar/Ocultar Barra Archivo';
+  resmiViewToolBarEditSearch_Caption = 'Mostrar/Ocultar Barra EdicionBusqueda';
+  resmiViewToolBarTreeview_Caption   = 'Mostrar/Ocultar Barra VistaArbol';
+  resmiViewFontSizeReduce_Caption    = 'Reducir Tamaño Letra';
+  resmiViewFontSizeIncrease_Caption  = 'Agrandar Tamaño Letra';
+  resmiViewToggleAddressbar_Caption  = 'Mostrar/Ocultar Barra Direccion';
+
+  // --> menu bar*s "tools" menu captions:
+  resmiToolsConfigureTools_Caption = 'Configurar Herramientas ...';
+  resmiToolsExportPreview_Caption  = 'Vista Previa Exportar ...';
+
+  // --> menu bar*s "treeview" menu captions:
+  resmiTreeviewExplore_Caption          = 'Explorar VistaArbol';
+  resmiTreeviewExpand_Caption           = 'Expandir VistaArbol';
+  resmiTreeviewCollapse_Caption         = 'Colapsar VistaArbol';
+  resmiTreeviewEmpty_Caption            = 'Vaciar VistaArbol';
+  resmiTreeviewItemSelectOff_Caption    = 'Marcar Seleccion elemento';
+  resmiTreeviewItemSelectOn_Caption     = 'Desmarcar Seleccion elemento';
+  resmiTreeviewItemInsertLast_Caption   = 'Insertar ultimo elemento ...';
+  resmiTreeviewItemDelete_Caption       = 'Eliminar elemento ...';
+  resmiTreeviewItemProperties_Caption   = 'Editar Propiedades de elemento ...';
+  resmiTreeviewItemInsertBefore_Caption = 'Insertar elemento antes ...';
+  resmiTreeviewItemInsertAfter_Caption  = 'Insertar elemento despues ...';
+
+  // --> menu bar*s "tags" menu captions:
+  resmiTagsNewBlockTag_Caption          = 'Nueva Etiqueta Bloque...';
+  resmiTagsNewSingleTag_Caption         = 'Nueva Etiqueta Sencilla...';
+  resmiTagsNewCommentTag_Caption        = 'Nueva Etiqueta Comentario...';
+  resmiTagsNewTextTag_Caption           = 'Nueva Etiqueta Texto...';
+
+  // --> menu bar*s "help" menu captions:
+  resmiHelpAbout_Caption       = 'Acerca ...';
 
 
   resAddressLabel_Caption  = 'Ruta:';
@@ -194,6 +298,59 @@ resourcestring
   resmiFileProperties_Hint  = '&Propiedades de Archivo...';
   resmiFileClose_Hint       = 'Cerrar';
   resmiFileExit_Hint        = 'Salir';
+
+  // --> menu bar*s "edit" menu captions:
+  resmiEditUndo_Caption           = 'Deshacer';
+  resmiEditRedo_Caption           = 'Rehacer';
+  resmiEditSelectAll_Caption      = 'Seleccionar Todo';
+  resmiEditSelectNone_Caption     = 'Cancelar Seleccion';
+  resmiEditCut_Caption            = 'Cortar';
+  resmiEditCopy_Caption           = 'Copiar';
+  resmiEditPaste_Caption          = 'Pegar';
+  resmiEditDuplicate_Caption      = 'Pegar Duplicado';
+  resmiEditClearClipboard_Caption = 'Limpiar Portapapeles';
+
+  // --> menu bar*s "search" menu captions:
+  resmiSearchFind_Caption         = 'Buscar ...';
+  resmiSearchFindAgain_Caption    = 'Buscar de nuevo ...';
+  resmiSearchReplace_Caption      = 'Reemplazar ...';
+  resmiSearchReplaceAgain_Caption = 'Reemplazar de nuevo ...';
+
+  // --> menu bar*s "view" menu captions:
+  resmiViewToolBarsConfigure_Caption = 'Configurar Barras Herramientas...';
+  resmiViewToolBarQuick_Caption      = 'Mostrar/Ocultar Barra Rapida';
+  resmiViewToolBarFile_Caption       = 'Mostrar/Ocultar Barra Archivo';
+  resmiViewToolBarEditSearch_Caption = 'Mostrar/Ocultar Barra EdicionBusqueda';
+  resmiViewToolBarTreeview_Caption   = 'Mostrar/Ocultar Barra VistaArbol';
+  resmiViewFontSizeReduce_Caption    = 'Reducir Tamaño Letra';
+  resmiViewFontSizeIncrease_Caption  = 'Agrandar Tamaño Letra';
+  resmiViewToggleAddressbar_Caption  = 'Mostrar/Ocultar Barra Direccion';
+
+  // --> menu bar*s "tools" menu captions:
+  resmiToolsConfigureTools_Caption = 'Configurar Herramientas ...';
+  resmiToolsExportPreview_Caption  = 'Vista Previa Exportar ...';
+
+  // --> menu bar*s "treeview" menu captions:
+  resmiTreeviewExplore_Caption          = 'Explorar VistaArbol';
+  resmiTreeviewExpand_Caption           = 'Expandir VistaArbol';
+  resmiTreeviewCollapse_Caption         = 'Collapsar VistaArbol';
+  resmiTreeviewEmpty_Caption            = 'Vaciar VistaArbol';
+  resmiTreeviewItemSelectOff_Caption    = 'Marcar Seleccion elemento';
+  resmiTreeviewItemSelectOn_Caption     = 'Desmarcar Seleccion elemento';
+  resmiTreeviewItemInsertLast_Caption   = 'Insertar ultimo elemento ...';
+  resmiTreeviewItemDelete_Caption       = 'Eliminar elemento ...';
+  resmiTreeviewItemProperties_Caption   = 'Editar Propiedades de elemento ...';
+  resmiTreeviewItemInsertBefore_Caption = 'Insertar elemento antes ...';
+  resmiTreeviewItemInsertAfter_Caption  = 'Insertar elemento despues ...';
+
+  // --> menu bar*s "tags" menu captions:
+  resmiTagsNewBlockTag_Caption          = 'Nueva Etiqueta Bloque...';
+  resmiTagsNewSingleTag_Caption         = 'Nueva Etiqueta Sencilla...';
+  resmiTagsNewCommentTag_Caption        = 'Nueva Etiqueta Comentario...';
+  resmiTagsNewTextTag_Caption           = 'Nueva Etiqueta Texto...';
+
+  // --> menu bar*s "help" menu captions:
+  resmiHelpAbout_Caption       = 'Acerca ...';
 
   resAddressLabel_Caption  = 'Ruta:';
 
